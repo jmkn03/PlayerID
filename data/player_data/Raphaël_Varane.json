@@ -1,0 +1,34 @@
+{
+    "id": "Q489039",
+    "name": "Raphaël Varane",
+    "career": [
+        {
+            "team": "R.C. Lens",
+            "years": "2010–2011",
+            "apps": 23,
+            "goals": 2,
+            "loan": false
+        },
+        {
+            "team": "Real Madrid CF",
+            "years": "2011–2021",
+            "apps": 236,
+            "goals": 8,
+            "loan": false
+        },
+        {
+            "team": "Manchester United F.C.",
+            "years": "2021–2024",
+            "apps": 68,
+            "goals": 2,
+            "loan": false
+        },
+        {
+            "team": "Como 1907",
+            "years": "2024–2024",
+            "apps": 0,
+            "goals": 0,
+            "loan": true
+        }
+    ]
+}

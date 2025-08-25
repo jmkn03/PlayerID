@@ -1,0 +1,41 @@
+{
+    "id": "Q17074511",
+    "name": "Ederson Moraes",
+    "career": [
+        {
+            "team": "G.D. Ribeirão",
+            "years": "2011–2012",
+            "apps": 29,
+            "goals": 0,
+            "loan": false
+        },
+        {
+            "team": "Rio Ave F.C.",
+            "years": "2012–2015",
+            "apps": 37,
+            "goals": 0,
+            "loan": false
+        },
+        {
+            "team": "S.L. Benfica",
+            "years": "2015–2017",
+            "apps": 37,
+            "goals": 0,
+            "loan": false
+        },
+        {
+            "team": "S.L. Benfica B",
+            "years": "2015–2015",
+            "apps": 4,
+            "goals": 0,
+            "loan": true
+        },
+        {
+            "team": "Manchester City F.C.",
+            "years": "2017–",
+            "apps": 234,
+            "goals": 0,
+            "loan": false
+        }
+    ]
+}

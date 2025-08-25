@@ -1,0 +1,27 @@
+{
+    "id": "Q131234",
+    "name": "Toni Kroos",
+    "career": [
+        {
+            "team": "FC Bayern Munich",
+            "years": "2007–2014",
+            "apps": 130,
+            "goals": 13,
+            "loan": false
+        },
+        {
+            "team": "Bayer 04 Leverkusen",
+            "years": "2009–2010",
+            "apps": 43,
+            "goals": 10,
+            "loan": true
+        },
+        {
+            "team": "Real Madrid CF",
+            "years": "2014–2024",
+            "apps": 306,
+            "goals": 22,
+            "loan": false
+        }
+    ]
+}

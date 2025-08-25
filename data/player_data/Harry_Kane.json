@@ -1,0 +1,48 @@
+{
+    "id": "Q969725",
+    "name": "Harry Kane",
+    "career": [
+        {
+            "team": "Tottenham Hotspur F.C.",
+            "years": "2009–2023",
+            "apps": 317,
+            "goals": 213,
+            "loan": false
+        },
+        {
+            "team": "Leyton Orient F.C.",
+            "years": "2011–2011",
+            "apps": 18,
+            "goals": 5,
+            "loan": true
+        },
+        {
+            "team": "Millwall F.C.",
+            "years": "2012–2012",
+            "apps": 22,
+            "goals": 7,
+            "loan": true
+        },
+        {
+            "team": "Norwich City F.C.",
+            "years": "2012–2013",
+            "apps": 3,
+            "goals": 0,
+            "loan": true
+        },
+        {
+            "team": "Leicester City F.C.",
+            "years": "2013–2013",
+            "apps": 13,
+            "goals": 2,
+            "loan": true
+        },
+        {
+            "team": "FC Bayern Munich",
+            "years": "2023–",
+            "apps": 63,
+            "goals": 62,
+            "loan": false
+        }
+    ]
+}

@@ -1,0 +1,97 @@
+{
+    "id": "Q44977",
+    "name": "Pierre-Emerick Aubameyang",
+    "career": [
+        {
+            "team": "Stade Lavallois",
+            "years": "1999–2001",
+            "apps": null,
+            "goals": null,
+            "loan": false
+        },
+        {
+            "team": "AC Milan",
+            "years": "2007–2011",
+            "apps": 0,
+            "goals": 0,
+            "loan": false
+        },
+        {
+            "team": "Dijon FCO",
+            "years": "2008–2009",
+            "apps": 34,
+            "goals": 8,
+            "loan": true
+        },
+        {
+            "team": "Lille OSC",
+            "years": "2009–2010",
+            "apps": 14,
+            "goals": 2,
+            "loan": true
+        },
+        {
+            "team": "AS Monaco FC",
+            "years": "2010–2011",
+            "apps": 19,
+            "goals": 2,
+            "loan": true
+        },
+        {
+            "team": "AS Saint-Étienne",
+            "years": "2011–2013",
+            "apps": 87,
+            "goals": 37,
+            "loan": false
+        },
+        {
+            "team": "Borussia Dortmund",
+            "years": "2013–2018",
+            "apps": 144,
+            "goals": 98,
+            "loan": false
+        },
+        {
+            "team": "Arsenal F.C.",
+            "years": "2018–2022",
+            "apps": 128,
+            "goals": 68,
+            "loan": false
+        },
+        {
+            "team": "FC Barcelona",
+            "years": "2022–2022",
+            "apps": 18,
+            "goals": 11,
+            "loan": true
+        },
+        {
+            "team": "Chelsea F.C.",
+            "years": "2022–2023",
+            "apps": 15,
+            "goals": 1,
+            "loan": false
+        },
+        {
+            "team": "Olympique de Marseille",
+            "years": "2023–2024",
+            "apps": 34,
+            "goals": 17,
+            "loan": false
+        },
+        {
+            "team": "Al Qadsiah FC",
+            "years": "2024–2025",
+            "apps": 32,
+            "goals": 17,
+            "loan": false
+        },
+        {
+            "team": "Olympique de Marseille",
+            "years": "2025–",
+            "apps": 0,
+            "goals": 0,
+            "loan": false
+        }
+    ]
+}

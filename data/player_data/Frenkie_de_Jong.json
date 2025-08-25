@@ -1,0 +1,34 @@
+{
+    "id": "Q19898898",
+    "name": "Frenkie de Jong",
+    "career": [
+        {
+            "team": "Willem II",
+            "years": "2015–2015",
+            "apps": 2,
+            "goals": 0,
+            "loan": false
+        },
+        {
+            "team": "Jong Ajax",
+            "years": "2015–2016",
+            "apps": 46,
+            "goals": 8,
+            "loan": false
+        },
+        {
+            "team": "AFC Ajax",
+            "years": "2016–2019",
+            "apps": 57,
+            "goals": 4,
+            "loan": false
+        },
+        {
+            "team": "FC Barcelona",
+            "years": "2019–",
+            "apps": null,
+            "goals": null,
+            "loan": false
+        }
+    ]
+}

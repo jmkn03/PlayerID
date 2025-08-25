@@ -1,0 +1,27 @@
+{
+    "id": "Q66241169",
+    "name": "Jude Bellingham",
+    "career": [
+        {
+            "team": "Birmingham City F.C.",
+            "years": "2019–2020",
+            "apps": 41,
+            "goals": 4,
+            "loan": false
+        },
+        {
+            "team": "Borussia Dortmund",
+            "years": "2020–2023",
+            "apps": 92,
+            "goals": 12,
+            "loan": false
+        },
+        {
+            "team": "Real Madrid CF",
+            "years": "2023–",
+            "apps": 59,
+            "goals": 28,
+            "loan": false
+        }
+    ]
+}

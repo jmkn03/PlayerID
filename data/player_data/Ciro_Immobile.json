@@ -1,0 +1,90 @@
+{
+    "id": "Q458101",
+    "name": "Ciro Immobile",
+    "career": [
+        {
+            "team": "Juventus FC",
+            "years": "2009–2012",
+            "apps": 3,
+            "goals": 0,
+            "loan": false
+        },
+        {
+            "team": "Siena FC",
+            "years": "2010–2011",
+            "apps": 4,
+            "goals": 1,
+            "loan": true
+        },
+        {
+            "team": "U.S. Grosseto 1912",
+            "years": "2011–2011",
+            "apps": 16,
+            "goals": 1,
+            "loan": true
+        },
+        {
+            "team": "Delfino Pescara 1936",
+            "years": "2011–2012",
+            "apps": 37,
+            "goals": 28,
+            "loan": true
+        },
+        {
+            "team": "Genoa CFC",
+            "years": "2012–2013",
+            "apps": 33,
+            "goals": 5,
+            "loan": false
+        },
+        {
+            "team": "Torino FC",
+            "years": "2013–2014",
+            "apps": 33,
+            "goals": 22,
+            "loan": false
+        },
+        {
+            "team": "Borussia Dortmund",
+            "years": "2014–2015",
+            "apps": 24,
+            "goals": 3,
+            "loan": false
+        },
+        {
+            "team": "Sevilla FC",
+            "years": "2015–2016",
+            "apps": 8,
+            "goals": 2,
+            "loan": false
+        },
+        {
+            "team": "Torino FC",
+            "years": "2016–2016",
+            "apps": 14,
+            "goals": 5,
+            "loan": true
+        },
+        {
+            "team": "SS Lazio",
+            "years": "2016–2024",
+            "apps": 270,
+            "goals": 169,
+            "loan": false
+        },
+        {
+            "team": "Beşiktaş J.K.",
+            "years": "2024–2025",
+            "apps": 30,
+            "goals": 15,
+            "loan": false
+        },
+        {
+            "team": "Bologna F.C. 1909",
+            "years": "2025–",
+            "apps": null,
+            "goals": null,
+            "loan": false
+        }
+    ]
+}

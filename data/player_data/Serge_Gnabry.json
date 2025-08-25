@@ -1,0 +1,48 @@
+{
+    "id": "Q59490",
+    "name": "Serge Gnabry",
+    "career": [
+        {
+            "team": "Club Atlético River Plate",
+            "years": "",
+            "apps": null,
+            "goals": null,
+            "loan": false
+        },
+        {
+            "team": "Arsenal F.C.",
+            "years": "2012–2016",
+            "apps": 10,
+            "goals": 1,
+            "loan": true
+        },
+        {
+            "team": "West Bromwich Albion F.C.",
+            "years": "2015–2016",
+            "apps": 1,
+            "goals": 0,
+            "loan": true
+        },
+        {
+            "team": "SV Werder Bremen",
+            "years": "2016–2017",
+            "apps": 27,
+            "goals": 11,
+            "loan": true
+        },
+        {
+            "team": "FC Bayern Munich",
+            "years": "2017–",
+            "apps": null,
+            "goals": null,
+            "loan": true
+        },
+        {
+            "team": "TSG 1899 Hoffenheim",
+            "years": "2017–2018",
+            "apps": 22,
+            "goals": 10,
+            "loan": true
+        }
+    ]
+}

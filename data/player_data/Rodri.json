@@ -1,0 +1,34 @@
+{
+    "id": "Q20994118",
+    "name": "Rodri",
+    "career": [
+        {
+            "team": "Villarreal CF",
+            "years": "2015–2018",
+            "apps": 63,
+            "goals": 1,
+            "loan": false
+        },
+        {
+            "team": "Villarreal CF B",
+            "years": "2015–2015",
+            "apps": 39,
+            "goals": 1,
+            "loan": true
+        },
+        {
+            "team": "Atlético de Madrid",
+            "years": "2018–2019",
+            "apps": 34,
+            "goals": 3,
+            "loan": false
+        },
+        {
+            "team": "Manchester City F.C.",
+            "years": "2019–",
+            "apps": 175,
+            "goals": 22,
+            "loan": false
+        }
+    ]
+}

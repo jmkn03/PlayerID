@@ -1,0 +1,34 @@
+{
+    "id": "Q26259982",
+    "name": "Matthijs de Ligt",
+    "career": [
+        {
+            "team": "AFC Ajax",
+            "years": "2016–2019",
+            "apps": 117,
+            "goals": 13,
+            "loan": false
+        },
+        {
+            "team": "Juventus FC",
+            "years": "2019–2022",
+            "apps": 117,
+            "goals": 8,
+            "loan": false
+        },
+        {
+            "team": "FC Bayern Munich",
+            "years": "2022–2024",
+            "apps": 53,
+            "goals": 5,
+            "loan": false
+        },
+        {
+            "team": "Manchester United F.C.",
+            "years": "2024–",
+            "apps": 29,
+            "goals": 2,
+            "loan": false
+        }
+    ]
+}

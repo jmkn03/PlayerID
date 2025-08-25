@@ -1,0 +1,48 @@
+{
+    "id": "Q357984",
+    "name": "Kevin De Bruyne",
+    "career": [
+        {
+            "team": "K.R.C. Genk",
+            "years": "2008–2012",
+            "apps": 97,
+            "goals": 16,
+            "loan": false
+        },
+        {
+            "team": "Chelsea F.C.",
+            "years": "2012–2014",
+            "apps": 3,
+            "goals": 0,
+            "loan": false
+        },
+        {
+            "team": "SV Werder Bremen",
+            "years": "2012–2013",
+            "apps": 33,
+            "goals": 10,
+            "loan": true
+        },
+        {
+            "team": "VfL Wolfsburg",
+            "years": "2014–2015",
+            "apps": 52,
+            "goals": 13,
+            "loan": false
+        },
+        {
+            "team": "Manchester City F.C.",
+            "years": "2015–2025",
+            "apps": 285,
+            "goals": 72,
+            "loan": false
+        },
+        {
+            "team": "SSC Napoli",
+            "years": "2025–",
+            "apps": null,
+            "goals": null,
+            "loan": false
+        }
+    ]
+}

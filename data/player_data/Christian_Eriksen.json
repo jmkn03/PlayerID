@@ -1,0 +1,62 @@
+{
+    "id": "Q294951",
+    "name": "Christian Eriksen",
+    "career": [
+        {
+            "team": "Middelfart Boldklub",
+            "years": "1995–2005",
+            "apps": null,
+            "goals": null,
+            "loan": false
+        },
+        {
+            "team": "Odense Boldklub",
+            "years": "2005–2008",
+            "apps": null,
+            "goals": null,
+            "loan": false
+        },
+        {
+            "team": "Ajax Youth Academy",
+            "years": "2008–2010",
+            "apps": null,
+            "goals": null,
+            "loan": false
+        },
+        {
+            "team": "AFC Ajax",
+            "years": "2010–2013",
+            "apps": 113,
+            "goals": 25,
+            "loan": false
+        },
+        {
+            "team": "Tottenham Hotspur F.C.",
+            "years": "2013–2020",
+            "apps": 226,
+            "goals": 51,
+            "loan": false
+        },
+        {
+            "team": "Inter Milan",
+            "years": "2020–2021",
+            "apps": 43,
+            "goals": 4,
+            "loan": false
+        },
+        {
+            "team": "Brentford F.C.",
+            "years": "2022–2022",
+            "apps": 11,
+            "goals": 1,
+            "loan": false
+        },
+        {
+            "team": "Manchester United F.C.",
+            "years": "2022–2025",
+            "apps": 73,
+            "goals": 3,
+            "loan": false
+        }
+    ]
+}

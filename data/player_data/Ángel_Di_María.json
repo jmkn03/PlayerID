@@ -1,0 +1,62 @@
+{
+    "id": "Q251683",
+    "name": "Ángel Di María",
+    "career": [
+        {
+            "team": "Club Atlético Rosario Central",
+            "years": "2005–2007",
+            "apps": 35,
+            "goals": 6,
+            "loan": false
+        },
+        {
+            "team": "S.L. Benfica",
+            "years": "2007–2010",
+            "apps": 76,
+            "goals": 7,
+            "loan": false
+        },
+        {
+            "team": "Real Madrid CF",
+            "years": "2010–2014",
+            "apps": 124,
+            "goals": 22,
+            "loan": false
+        },
+        {
+            "team": "Manchester United F.C.",
+            "years": "2014–2015",
+            "apps": 27,
+            "goals": 3,
+            "loan": false
+        },
+        {
+            "team": "Paris Saint-Germain FC",
+            "years": "2015–2022",
+            "apps": 197,
+            "goals": 56,
+            "loan": false
+        },
+        {
+            "team": "Juventus FC",
+            "years": "2022–2023",
+            "apps": 26,
+            "goals": 4,
+            "loan": false
+        },
+        {
+            "team": "S.L. Benfica",
+            "years": "2023–2025",
+            "apps": 53,
+            "goals": 17,
+            "loan": false
+        },
+        {
+            "team": "Club Atlético Rosario Central",
+            "years": "2025–",
+            "apps": 1,
+            "goals": 1,
+            "loan": false
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "id": "Q209942",
+    "name": "Sadio Mané",
+    "career": [
+        {
+            "team": "FC Metz",
+            "years": "2010–2012",
+            "apps": 22,
+            "goals": 2,
+            "loan": false
+        },
+        {
+            "team": "FC Red Bull Salzburg",
+            "years": "2012–2014",
+            "apps": 63,
+            "goals": 31,
+            "loan": false
+        },
+        {
+            "team": "Southampton F.C.",
+            "years": "2014–2016",
+            "apps": 67,
+            "goals": 21,
+            "loan": false
+        },
+        {
+            "team": "Liverpool F.C.",
+            "years": "2016–2022",
+            "apps": 196,
+            "goals": 90,
+            "loan": false
+        },
+        {
+            "team": "FC Bayern Munich",
+            "years": "2022–2023",
+            "apps": 25,
+            "goals": 7,
+            "loan": false
+        },
+        {
+            "team": "Al-Nassr",
+            "years": "2023–",
+            "apps": 64,
+            "goals": 27,
+            "loan": false
+        }
+    ]
+}

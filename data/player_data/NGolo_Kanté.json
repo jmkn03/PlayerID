@@ -1,0 +1,41 @@
+{
+    "id": "Q16665941",
+    "name": "NGolo Kanté",
+    "career": [
+        {
+            "team": "US Boulogne",
+            "years": "2011–2013",
+            "apps": 38,
+            "goals": 3,
+            "loan": false
+        },
+        {
+            "team": "Stade Malherbe Caen",
+            "years": "2013–2015",
+            "apps": 75,
+            "goals": 4,
+            "loan": false
+        },
+        {
+            "team": "Leicester City F.C.",
+            "years": "2015–2016",
+            "apps": 37,
+            "goals": 1,
+            "loan": false
+        },
+        {
+            "team": "Chelsea F.C.",
+            "years": "2016–2023",
+            "apps": 190,
+            "goals": 11,
+            "loan": false
+        },
+        {
+            "team": "Al Ittihad FC",
+            "years": "2023–",
+            "apps": 61,
+            "goals": 6,
+            "loan": false
+        }
+    ]
+}

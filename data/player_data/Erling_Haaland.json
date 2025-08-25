@@ -1,0 +1,41 @@
+{
+    "id": "Q28967995",
+    "name": "Erling Haaland",
+    "career": [
+        {
+            "team": "Bryne FK",
+            "years": "2016–2017",
+            "apps": 16,
+            "goals": 0,
+            "loan": false
+        },
+        {
+            "team": "Molde FK",
+            "years": "2017–2019",
+            "apps": 39,
+            "goals": 14,
+            "loan": false
+        },
+        {
+            "team": "FC Red Bull Salzburg",
+            "years": "2019–2020",
+            "apps": 16,
+            "goals": 17,
+            "loan": false
+        },
+        {
+            "team": "Borussia Dortmund",
+            "years": "2020–2022",
+            "apps": 67,
+            "goals": 62,
+            "loan": false
+        },
+        {
+            "team": "Manchester City F.C.",
+            "years": "2022–",
+            "apps": 97,
+            "goals": 85,
+            "loan": false
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "id": "Q3192187",
+    "name": "Kalidou Koulibaly",
+    "career": [
+        {
+            "team": "FC Metz II",
+            "years": "2009–2011",
+            "apps": 31,
+            "goals": 2,
+            "loan": false
+        },
+        {
+            "team": "FC Metz",
+            "years": "2010–2012",
+            "apps": 41,
+            "goals": 1,
+            "loan": false
+        },
+        {
+            "team": "K.R.C. Genk",
+            "years": "2012–2014",
+            "apps": 64,
+            "goals": 3,
+            "loan": false
+        },
+        {
+            "team": "SSC Napoli",
+            "years": "2014–2022",
+            "apps": 236,
+            "goals": 13,
+            "loan": false
+        },
+        {
+            "team": "Chelsea F.C.",
+            "years": "2022–2023",
+            "apps": 23,
+            "goals": 2,
+            "loan": false
+        },
+        {
+            "team": "Al Hilal SFC",
+            "years": "2023–",
+            "apps": 60,
+            "goals": 4,
+            "loan": false
+        }
+    ]
+}

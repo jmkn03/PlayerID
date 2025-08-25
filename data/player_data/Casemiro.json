@@ -1,0 +1,48 @@
+{
+    "id": "Q616664",
+    "name": "Casemiro",
+    "career": [
+        {
+            "team": "São Paulo FC",
+            "years": "2010–2013",
+            "apps": 92,
+            "goals": 9,
+            "loan": false
+        },
+        {
+            "team": "Real Madrid CF",
+            "years": "2013–2013",
+            "apps": 1,
+            "goals": 0,
+            "loan": true
+        },
+        {
+            "team": "Real Madrid Castilla",
+            "years": "2013–2013",
+            "apps": 15,
+            "goals": 1,
+            "loan": true
+        },
+        {
+            "team": "Real Madrid CF",
+            "years": "2013–2022",
+            "apps": 221,
+            "goals": 24,
+            "loan": false
+        },
+        {
+            "team": "FC Porto",
+            "years": "2014–2015",
+            "apps": 28,
+            "goals": 3,
+            "loan": false
+        },
+        {
+            "team": "Manchester United F.C.",
+            "years": "2022–",
+            "apps": 77,
+            "goals": 6,
+            "loan": false
+        }
+    ]
+}

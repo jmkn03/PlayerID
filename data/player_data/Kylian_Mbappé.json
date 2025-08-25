@@ -1,0 +1,41 @@
+{
+    "id": "Q21621995",
+    "name": "Kylian Mbappé",
+    "career": [
+        {
+            "team": "AS Monaco FC II",
+            "years": "2015–2016",
+            "apps": 12,
+            "goals": 4,
+            "loan": false
+        },
+        {
+            "team": "AS Monaco FC",
+            "years": "2015–2018",
+            "apps": 41,
+            "goals": 16,
+            "loan": false
+        },
+        {
+            "team": "Paris Saint-Germain FC",
+            "years": "2017–2018",
+            "apps": 27,
+            "goals": 13,
+            "loan": true
+        },
+        {
+            "team": "Paris Saint-Germain FC",
+            "years": "2018–2024",
+            "apps": 178,
+            "goals": 162,
+            "loan": false
+        },
+        {
+            "team": "Real Madrid CF",
+            "years": "2024–",
+            "apps": 34,
+            "goals": 31,
+            "loan": false
+        }
+    ]
+}

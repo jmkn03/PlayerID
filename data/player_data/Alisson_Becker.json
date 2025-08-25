@@ -1,0 +1,27 @@
+{
+    "id": "Q18237361",
+    "name": "Alisson Becker",
+    "career": [
+        {
+            "team": "S.C. Internacional",
+            "years": "2013–2016",
+            "apps": 44,
+            "goals": 0,
+            "loan": false
+        },
+        {
+            "team": "A.S. Roma",
+            "years": "2016–2018",
+            "apps": 37,
+            "goals": 0,
+            "loan": false
+        },
+        {
+            "team": "Liverpool F.C.",
+            "years": "2018–",
+            "apps": 229,
+            "goals": 1,
+            "loan": false
+        }
+    ]
+}

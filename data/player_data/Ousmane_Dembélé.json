@@ -1,0 +1,34 @@
+{
+    "id": "Q20851003",
+    "name": "Ousmane Dembélé",
+    "career": [
+        {
+            "team": "Stade Rennais F.C.",
+            "years": "2015–2016",
+            "apps": 26,
+            "goals": 12,
+            "loan": false
+        },
+        {
+            "team": "Borussia Dortmund",
+            "years": "2016–2017",
+            "apps": 32,
+            "goals": 6,
+            "loan": false
+        },
+        {
+            "team": "FC Barcelona",
+            "years": "2017–2023",
+            "apps": 127,
+            "goals": 24,
+            "loan": false
+        },
+        {
+            "team": "Paris Saint-Germain FC",
+            "years": "2023–",
+            "apps": 55,
+            "goals": 24,
+            "loan": false
+        }
+    ]
+}

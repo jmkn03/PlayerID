@@ -1,0 +1,27 @@
+{
+    "id": "Q46951844",
+    "name": "Aurélien Tchouaméni",
+    "career": [
+        {
+            "team": "FC Girondins de Bordeaux",
+            "years": "2018–2020",
+            "apps": 25,
+            "goals": 0,
+            "loan": false
+        },
+        {
+            "team": "AS Monaco FC",
+            "years": "2020–2022",
+            "apps": 74,
+            "goals": 5,
+            "loan": false
+        },
+        {
+            "team": "Real Madrid CF",
+            "years": "2022–",
+            "apps": 92,
+            "goals": 3,
+            "loan": false
+        }
+    ]
+}

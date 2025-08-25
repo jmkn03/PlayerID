@@ -1,0 +1,41 @@
+{
+    "id": "Q151269",
+    "name": "Robert Lewandowski",
+    "career": [
+        {
+            "team": "Znicz Pruszków",
+            "years": "2006–2008",
+            "apps": 59,
+            "goals": 36,
+            "loan": false
+        },
+        {
+            "team": "Lech Poznań",
+            "years": "2008–2010",
+            "apps": 58,
+            "goals": 32,
+            "loan": false
+        },
+        {
+            "team": "Borussia Dortmund",
+            "years": "2010–2014",
+            "apps": 131,
+            "goals": 74,
+            "loan": false
+        },
+        {
+            "team": "FC Bayern Munich",
+            "years": "2014–2022",
+            "apps": 253,
+            "goals": 238,
+            "loan": false
+        },
+        {
+            "team": "FC Barcelona",
+            "years": "2022–",
+            "apps": 103,
+            "goals": 69,
+            "loan": false
+        }
+    ]
+}

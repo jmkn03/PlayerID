@@ -1,0 +1,48 @@
+{
+    "id": "Q455462",
+    "name": "Antoine Griezmann",
+    "career": [
+        {
+            "team": "Club de Fútbol Monterrey",
+            "years": "",
+            "apps": null,
+            "goals": null,
+            "loan": false
+        },
+        {
+            "team": "Real Sociedad",
+            "years": "2009–2014",
+            "apps": 180,
+            "goals": 46,
+            "loan": true
+        },
+        {
+            "team": "Atlético de Madrid",
+            "years": "2014–2019",
+            "apps": 180,
+            "goals": 94,
+            "loan": true
+        },
+        {
+            "team": "FC Barcelona",
+            "years": "2019–2022",
+            "apps": 74,
+            "goals": 22,
+            "loan": true
+        },
+        {
+            "team": "Atlético de Madrid",
+            "years": "2021–2022",
+            "apps": 34,
+            "goals": 5,
+            "loan": true
+        },
+        {
+            "team": "Atlético de Madrid",
+            "years": "2022–",
+            "apps": 101,
+            "goals": 37,
+            "loan": true
+        }
+    ]
+}

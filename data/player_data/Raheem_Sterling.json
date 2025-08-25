@@ -1,0 +1,34 @@
+{
+    "id": "Q312157",
+    "name": "Raheem Sterling",
+    "career": [
+        {
+            "team": "Liverpool F.C.",
+            "years": "2012–2015",
+            "apps": 95,
+            "goals": 18,
+            "loan": false
+        },
+        {
+            "team": "Manchester City F.C.",
+            "years": "2015–2022",
+            "apps": 225,
+            "goals": 91,
+            "loan": false
+        },
+        {
+            "team": "Chelsea F.C.",
+            "years": "2022–",
+            "apps": 59,
+            "goals": 14,
+            "loan": false
+        },
+        {
+            "team": "Arsenal F.C.",
+            "years": "2024–2025",
+            "apps": 17,
+            "goals": 0,
+            "loan": true
+        }
+    ]
+}

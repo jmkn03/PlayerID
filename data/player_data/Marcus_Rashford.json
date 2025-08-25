@@ -1,0 +1,27 @@
+{
+    "id": "Q22951255",
+    "name": "Marcus Rashford",
+    "career": [
+        {
+            "team": "Manchester United F.C.",
+            "years": "2015–",
+            "apps": 287,
+            "goals": 87,
+            "loan": false
+        },
+        {
+            "team": "Aston Villa F.C.",
+            "years": "2025–2025",
+            "apps": 10,
+            "goals": 2,
+            "loan": true
+        },
+        {
+            "team": "FC Barcelona",
+            "years": "2025–",
+            "apps": 0,
+            "goals": 0,
+            "loan": true
+        }
+    ]
+}

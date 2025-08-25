@@ -1,0 +1,41 @@
+{
+    "id": "Q8338725",
+    "name": "Riyad Mahrez",
+    "career": [
+        {
+            "team": "Quimper Kerfeunteun F.C.",
+            "years": "2009–2010",
+            "apps": 27,
+            "goals": 1,
+            "loan": false
+        },
+        {
+            "team": "Le Havre AC",
+            "years": "2011–2013",
+            "apps": 60,
+            "goals": 24,
+            "loan": false
+        },
+        {
+            "team": "Leicester City F.C.",
+            "years": "2014–2018",
+            "apps": 179,
+            "goals": 48,
+            "loan": false
+        },
+        {
+            "team": "Manchester City F.C.",
+            "years": "2018–2023",
+            "apps": 145,
+            "goals": 43,
+            "loan": false
+        },
+        {
+            "team": "Al-Ahli Saudi FC",
+            "years": "2023–",
+            "apps": 51,
+            "goals": 16,
+            "loan": false
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "id": "Q21621168",
+    "name": "Ruben Dias",
+    "career": [
+        {
+            "team": "S.L. Benfica B",
+            "years": "2015–2017",
+            "apps": 55,
+            "goals": 0,
+            "loan": false
+        },
+        {
+            "team": "S.L. Benfica",
+            "years": "2017–2020",
+            "apps": 91,
+            "goals": 9,
+            "loan": false
+        },
+        {
+            "team": "Manchester City F.C.",
+            "years": "2020–",
+            "apps": 144,
+            "goals": 3,
+            "loan": false
+        }
+    ]
+}

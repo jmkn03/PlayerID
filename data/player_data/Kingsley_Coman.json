@@ -1,0 +1,48 @@
+{
+    "id": "Q6413296",
+    "name": "Kingsley Coman",
+    "career": [
+        {
+            "team": "Paris Saint-Germain FC",
+            "years": "2013–2014",
+            "apps": 3,
+            "goals": 0,
+            "loan": false
+        },
+        {
+            "team": "Paris Saint-Germain FC Youth Academy",
+            "years": "2013–2014",
+            "apps": 16,
+            "goals": 0,
+            "loan": true
+        },
+        {
+            "team": "Juventus FC",
+            "years": "2014–2017",
+            "apps": 15,
+            "goals": 0,
+            "loan": false
+        },
+        {
+            "team": "FC Bayern Munich",
+            "years": "2015–2017",
+            "apps": 42,
+            "goals": 6,
+            "loan": true
+        },
+        {
+            "team": "FC Bayern Munich",
+            "years": "2017–2025",
+            "apps": 185,
+            "goals": 40,
+            "loan": false
+        },
+        {
+            "team": "Al-Nassr",
+            "years": "2025–",
+            "apps": 0,
+            "goals": 0,
+            "loan": false
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "id": "Q2025900",
+    "name": "John Stones",
+    "career": [
+        {
+            "team": "Barnsley F.C.",
+            "years": "2011–2013",
+            "apps": 24,
+            "goals": 0,
+            "loan": false
+        },
+        {
+            "team": "Everton F.C.",
+            "years": "2013–2016",
+            "apps": 77,
+            "goals": 1,
+            "loan": false
+        },
+        {
+            "team": "Manchester City F.C.",
+            "years": "2016–",
+            "apps": 171,
+            "goals": 10,
+            "loan": false
+        }
+    ]
+}

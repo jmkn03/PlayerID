@@ -1,0 +1,34 @@
+{
+    "id": "Q16499882",
+    "name": "Leroy Sané",
+    "career": [
+        {
+            "team": "Schalke 04",
+            "years": "2014–2016",
+            "apps": 47,
+            "goals": 11,
+            "loan": false
+        },
+        {
+            "team": "Manchester City F.C.",
+            "years": "2016–2020",
+            "apps": 90,
+            "goals": 25,
+            "loan": false
+        },
+        {
+            "team": "FC Bayern Munich",
+            "years": "2020–2025",
+            "apps": 153,
+            "goals": 40,
+            "loan": false
+        },
+        {
+            "team": "Galatasaray S.K.",
+            "years": "2025–",
+            "apps": 0,
+            "goals": 0,
+            "loan": false
+        }
+    ]
+}

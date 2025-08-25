@@ -1,0 +1,27 @@
+{
+    "id": "Q66743376",
+    "name": "Ansu Fati",
+    "career": [
+        {
+            "team": "FC Barcelona",
+            "years": "2019–",
+            "apps": 86,
+            "goals": 22,
+            "loan": false
+        },
+        {
+            "team": "Brighton & Hove Albion F.C.",
+            "years": "2023–2024",
+            "apps": 19,
+            "goals": 2,
+            "loan": true
+        },
+        {
+            "team": "AS Monaco FC",
+            "years": "2025–",
+            "apps": 0,
+            "goals": 0,
+            "loan": true
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "id": "Q615",
+    "name": "Lionel Messi",
+    "career": [
+        {
+            "team": "Newell's Old Boys",
+            "years": "1995–2000",
+            "apps": 176,
+            "goals": 234,
+            "loan": false
+        },
+        {
+            "team": "FC Barcelona C",
+            "years": "2003–2004",
+            "apps": 10,
+            "goals": 5,
+            "loan": false
+        },
+        {
+            "team": "FC Barcelona Juvenil A",
+            "years": "2003–2004",
+            "apps": 21,
+            "goals": 31,
+            "loan": true
+        },
+        {
+            "team": "FC Barcelona Atlètic",
+            "years": "2004–2005",
+            "apps": 22,
+            "goals": 6,
+            "loan": false
+        },
+        {
+            "team": "FC Barcelona",
+            "years": "2004–2021",
+            "apps": 520,
+            "goals": 474,
+            "loan": false
+        },
+        {
+            "team": "Paris Saint-Germain FC",
+            "years": "2021–2023",
+            "apps": 58,
+            "goals": 22,
+            "loan": false
+        },
+        {
+            "team": "Inter Miami CF",
+            "years": "2023–",
+            "apps": 43,
+            "goals": 39,
+            "loan": false
+        }
+    ]
+}

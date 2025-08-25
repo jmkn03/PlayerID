@@ -1,0 +1,41 @@
+{
+    "id": "Q4979316",
+    "name": "Bruno Fernandes",
+    "career": [
+        {
+            "team": "Novara Calcio",
+            "years": "2012–2013",
+            "apps": 23,
+            "goals": 4,
+            "loan": false
+        },
+        {
+            "team": "Udinese Calcio",
+            "years": "2013–2016",
+            "apps": 86,
+            "goals": 10,
+            "loan": false
+        },
+        {
+            "team": "U.C. Sampdoria",
+            "years": "2016–2017",
+            "apps": 33,
+            "goals": 5,
+            "loan": false
+        },
+        {
+            "team": "Sporting CP",
+            "years": "2017–2020",
+            "apps": 83,
+            "goals": 39,
+            "loan": false
+        },
+        {
+            "team": "Manchester United F.C.",
+            "years": "2020–",
+            "apps": 195,
+            "goals": 62,
+            "loan": false
+        }
+    ]
+}

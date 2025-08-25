@@ -1,0 +1,34 @@
+{
+    "id": "Q520721",
+    "name": "Leon Goretzka",
+    "career": [
+        {
+            "team": "VfL Bochum",
+            "years": "2012–2013",
+            "apps": 32,
+            "goals": 4,
+            "loan": false
+        },
+        {
+            "team": "Schalke 04",
+            "years": "2013–2018",
+            "apps": 116,
+            "goals": 14,
+            "loan": false
+        },
+        {
+            "team": "FC Schalke 04 II",
+            "years": "2015–2015",
+            "apps": 1,
+            "goals": 0,
+            "loan": true
+        },
+        {
+            "team": "FC Bayern Munich",
+            "years": "2018–",
+            "apps": 180,
+            "goals": 35,
+            "loan": false
+        }
+    ]
+}

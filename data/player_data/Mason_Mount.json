@@ -1,0 +1,34 @@
+{
+    "id": "Q38000669",
+    "name": "Mason Mount",
+    "career": [
+        {
+            "team": "Chelsea F.C.",
+            "years": "2017–2023",
+            "apps": 129,
+            "goals": 27,
+            "loan": false
+        },
+        {
+            "team": "SBV Vitesse",
+            "years": "2017–2018",
+            "apps": 29,
+            "goals": 9,
+            "loan": true
+        },
+        {
+            "team": "Derby County F.C.",
+            "years": "2018–2019",
+            "apps": 35,
+            "goals": 8,
+            "loan": true
+        },
+        {
+            "team": "Manchester United F.C.",
+            "years": "2023–",
+            "apps": null,
+            "goals": null,
+            "loan": false
+        }
+    ]
+}

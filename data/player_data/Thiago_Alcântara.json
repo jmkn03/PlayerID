@@ -1,0 +1,34 @@
+{
+    "id": "Q17493",
+    "name": "Thiago Alcântara",
+    "career": [
+        {
+            "team": "FC Barcelona Atlètic",
+            "years": "2008–2011",
+            "apps": 59,
+            "goals": 3,
+            "loan": false
+        },
+        {
+            "team": "FC Barcelona",
+            "years": "2009–2013",
+            "apps": 68,
+            "goals": 7,
+            "loan": false
+        },
+        {
+            "team": "FC Bayern Munich",
+            "years": "2013–2020",
+            "apps": 150,
+            "goals": 17,
+            "loan": false
+        },
+        {
+            "team": "Liverpool F.C.",
+            "years": "2020–2024",
+            "apps": 68,
+            "goals": 2,
+            "loan": false
+        }
+    ]
+}

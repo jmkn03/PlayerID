@@ -1,0 +1,83 @@
+{
+    "id": "Q313316",
+    "name": "Romelu Lukaku",
+    "career": [
+        {
+            "team": "R.S.C. Anderlecht",
+            "years": "2009–2011",
+            "apps": 73,
+            "goals": 33,
+            "loan": false
+        },
+        {
+            "team": "Chelsea F.C.",
+            "years": "2011–2014",
+            "apps": 10,
+            "goals": 0,
+            "loan": false
+        },
+        {
+            "team": "West Bromwich Albion F.C.",
+            "years": "2012–2013",
+            "apps": 35,
+            "goals": 17,
+            "loan": true
+        },
+        {
+            "team": "Everton F.C.",
+            "years": "2013–2014",
+            "apps": 31,
+            "goals": 15,
+            "loan": true
+        },
+        {
+            "team": "Everton F.C.",
+            "years": "2014–2017",
+            "apps": 110,
+            "goals": 53,
+            "loan": false
+        },
+        {
+            "team": "Manchester United F.C.",
+            "years": "2017–2019",
+            "apps": 66,
+            "goals": 28,
+            "loan": false
+        },
+        {
+            "team": "Inter Milan",
+            "years": "2019–2021",
+            "apps": 72,
+            "goals": 47,
+            "loan": false
+        },
+        {
+            "team": "Chelsea F.C.",
+            "years": "2021–2024",
+            "apps": 26,
+            "goals": 8,
+            "loan": false
+        },
+        {
+            "team": "Inter Milan",
+            "years": "2022–2023",
+            "apps": 25,
+            "goals": 10,
+            "loan": false
+        },
+        {
+            "team": "A.S. Roma",
+            "years": "2023–2024",
+            "apps": 32,
+            "goals": 13,
+            "loan": false
+        },
+        {
+            "team": "SSC Napoli",
+            "years": "2024–",
+            "apps": 36,
+            "goals": 14,
+            "loan": false
+        }
+    ]
+}

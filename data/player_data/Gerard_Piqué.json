@@ -1,0 +1,41 @@
+{
+    "id": "Q17507",
+    "name": "Gerard Piqué",
+    "career": [
+        {
+            "team": "FC Barcelona",
+            "years": "1997–2004",
+            "apps": null,
+            "goals": null,
+            "loan": false
+        },
+        {
+            "team": "Manchester United F.C.",
+            "years": "2004–2008",
+            "apps": 12,
+            "goals": 0,
+            "loan": false
+        },
+        {
+            "team": "Manchester United F.C.",
+            "years": "2004–2006",
+            "apps": null,
+            "goals": null,
+            "loan": true
+        },
+        {
+            "team": "Real Zaragoza",
+            "years": "2006–2007",
+            "apps": 22,
+            "goals": 2,
+            "loan": true
+        },
+        {
+            "team": "FC Barcelona",
+            "years": "2008–2022",
+            "apps": 397,
+            "goals": 29,
+            "loan": false
+        }
+    ]
+}

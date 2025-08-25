@@ -1,0 +1,48 @@
+{
+    "id": "Q1894",
+    "name": "Memphis Depay",
+    "career": [
+        {
+            "team": "PSV Eindhoven",
+            "years": "2011–2015",
+            "apps": 90,
+            "goals": 39,
+            "loan": false
+        },
+        {
+            "team": "Manchester United F.C.",
+            "years": "2015–2017",
+            "apps": 33,
+            "goals": 2,
+            "loan": false
+        },
+        {
+            "team": "Olympique Lyonnais",
+            "years": "2017–2021",
+            "apps": 139,
+            "goals": 63,
+            "loan": false
+        },
+        {
+            "team": "FC Barcelona",
+            "years": "2021–2023",
+            "apps": 30,
+            "goals": 13,
+            "loan": false
+        },
+        {
+            "team": "Atlético de Madrid",
+            "years": "2023–2024",
+            "apps": 31,
+            "goals": 9,
+            "loan": false
+        },
+        {
+            "team": "S.C. Corinthians Paulista",
+            "years": "2024–",
+            "apps": 28,
+            "goals": 12,
+            "loan": false
+        }
+    ]
+}

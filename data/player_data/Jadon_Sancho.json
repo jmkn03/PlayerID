@@ -1,0 +1,41 @@
+{
+    "id": "Q30148558",
+    "name": "Jadon Sancho",
+    "career": [
+        {
+            "team": "Borussia Dortmund II",
+            "years": "2017–2017",
+            "apps": 3,
+            "goals": 0,
+            "loan": false
+        },
+        {
+            "team": "Borussia Dortmund",
+            "years": "2017–2021",
+            "apps": 104,
+            "goals": 38,
+            "loan": false
+        },
+        {
+            "team": "Manchester United F.C.",
+            "years": "2021–",
+            "apps": 58,
+            "goals": 9,
+            "loan": false
+        },
+        {
+            "team": "Borussia Dortmund",
+            "years": "2024–2024",
+            "apps": 14,
+            "goals": 2,
+            "loan": true
+        },
+        {
+            "team": "Chelsea F.C.",
+            "years": "2024–",
+            "apps": 31,
+            "goals": 3,
+            "loan": true
+        }
+    ]
+}

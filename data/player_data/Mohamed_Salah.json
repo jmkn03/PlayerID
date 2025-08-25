@@ -1,0 +1,55 @@
+{
+    "id": "Q1354960",
+    "name": "Mohamed Salah",
+    "career": [
+        {
+            "team": "Al Mokawloon Al Arab SC",
+            "years": "2010–2012",
+            "apps": 37,
+            "goals": 11,
+            "loan": false
+        },
+        {
+            "team": "FC Basel",
+            "years": "2012–2014",
+            "apps": 47,
+            "goals": 9,
+            "loan": false
+        },
+        {
+            "team": "Chelsea F.C.",
+            "years": "2014–2015",
+            "apps": 13,
+            "goals": 2,
+            "loan": false
+        },
+        {
+            "team": "ACF Fiorentina",
+            "years": "2015–2015",
+            "apps": 16,
+            "goals": 6,
+            "loan": true
+        },
+        {
+            "team": "A.S. Roma",
+            "years": "2015–2016",
+            "apps": 34,
+            "goals": 14,
+            "loan": false
+        },
+        {
+            "team": "A.S. Roma",
+            "years": "2016–2017",
+            "apps": 31,
+            "goals": 15,
+            "loan": false
+        },
+        {
+            "team": "Liverpool F.C.",
+            "years": "2017–",
+            "apps": 288,
+            "goals": 184,
+            "loan": false
+        }
+    ]
+}

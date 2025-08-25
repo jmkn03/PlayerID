@@ -1,0 +1,20 @@
+{
+    "id": "Q66606355",
+    "name": "Pedri",
+    "career": [
+        {
+            "team": "UD Las Palmas",
+            "years": "2019–2020",
+            "apps": 36,
+            "goals": 4,
+            "loan": false
+        },
+        {
+            "team": "FC Barcelona",
+            "years": "2020–",
+            "apps": 136,
+            "goals": 20,
+            "loan": false
+        }
+    ]
+}

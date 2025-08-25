@@ -1,0 +1,20 @@
+{
+    "id": "Q39076401",
+    "name": "Reece James",
+    "career": [
+        {
+            "team": "Wigan Athletic F.C.",
+            "years": "2018–2019",
+            "apps": 45,
+            "goals": 3,
+            "loan": false
+        },
+        {
+            "team": "Chelsea F.C.",
+            "years": "2018–",
+            "apps": null,
+            "goals": null,
+            "loan": false
+        }
+    ]
+}

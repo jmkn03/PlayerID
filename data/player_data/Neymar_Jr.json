@@ -1,0 +1,41 @@
+{
+    "id": "Q142794",
+    "name": "Neymar Jr",
+    "career": [
+        {
+            "team": "Santos F.C.",
+            "years": "2009–2013",
+            "apps": 102,
+            "goals": 54,
+            "loan": false
+        },
+        {
+            "team": "FC Barcelona",
+            "years": "2013–2017",
+            "apps": 123,
+            "goals": 68,
+            "loan": false
+        },
+        {
+            "team": "Paris Saint-Germain FC",
+            "years": "2017–2023",
+            "apps": 112,
+            "goals": 82,
+            "loan": false
+        },
+        {
+            "team": "Al Hilal SFC",
+            "years": "2023–2025",
+            "apps": 3,
+            "goals": 0,
+            "loan": false
+        },
+        {
+            "team": "Santos F.C.",
+            "years": "2025–",
+            "apps": 11,
+            "goals": 3,
+            "loan": false
+        }
+    ]
+}

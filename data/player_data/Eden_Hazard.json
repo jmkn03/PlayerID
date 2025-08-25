@@ -1,0 +1,34 @@
+{
+    "id": "Q214204",
+    "name": "Eden Hazard",
+    "career": [
+        {
+            "team": "Lille OSC",
+            "years": "2007–2012",
+            "apps": 147,
+            "goals": 36,
+            "loan": false
+        },
+        {
+            "team": "Lille OSC II",
+            "years": "2007–2008",
+            "apps": 13,
+            "goals": 1,
+            "loan": true
+        },
+        {
+            "team": "Chelsea F.C.",
+            "years": "2012–2019",
+            "apps": 245,
+            "goals": 85,
+            "loan": false
+        },
+        {
+            "team": "Real Madrid CF",
+            "years": "2019–2023",
+            "apps": 54,
+            "goals": 4,
+            "loan": false
+        }
+    ]
+}

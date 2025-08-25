@@ -1,0 +1,20 @@
+{
+    "id": "Q13865408",
+    "name": "Joshua Kimmich",
+    "career": [
+        {
+            "team": "RB Leipzig",
+            "years": "2013–2015",
+            "apps": 55,
+            "goals": 3,
+            "loan": false
+        },
+        {
+            "team": "FC Bayern Munich",
+            "years": "2015–",
+            "apps": 295,
+            "goals": 29,
+            "loan": false
+        }
+    ]
+}

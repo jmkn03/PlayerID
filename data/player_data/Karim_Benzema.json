@@ -1,0 +1,34 @@
+{
+    "id": "Q1912",
+    "name": "Karim Benzema",
+    "career": [
+        {
+            "team": "Olympique Lyonnais",
+            "years": "2004–2006",
+            "apps": 20,
+            "goals": 15,
+            "loan": false
+        },
+        {
+            "team": "Olympique Lyonnais",
+            "years": "2004–2009",
+            "apps": 112,
+            "goals": 43,
+            "loan": false
+        },
+        {
+            "team": "Real Madrid CF",
+            "years": "2009–2023",
+            "apps": 439,
+            "goals": 238,
+            "loan": false
+        },
+        {
+            "team": "Al Ittihad FC",
+            "years": "2023–",
+            "apps": 50,
+            "goals": 30,
+            "loan": false
+        }
+    ]
+}

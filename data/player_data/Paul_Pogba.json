@@ -1,0 +1,41 @@
+{
+    "id": "Q129027",
+    "name": "Paul Pogba",
+    "career": [
+        {
+            "team": "Manchester United F.C.",
+            "years": "2011–2012",
+            "apps": 3,
+            "goals": 0,
+            "loan": false
+        },
+        {
+            "team": "Juventus FC",
+            "years": "2012–2016",
+            "apps": 124,
+            "goals": 28,
+            "loan": false
+        },
+        {
+            "team": "Manchester United F.C.",
+            "years": "2016–2022",
+            "apps": 154,
+            "goals": 29,
+            "loan": false
+        },
+        {
+            "team": "Juventus FC",
+            "years": "2022–2024",
+            "apps": 8,
+            "goals": 0,
+            "loan": false
+        },
+        {
+            "team": "AS Monaco FC",
+            "years": "2025–",
+            "apps": null,
+            "goals": null,
+            "loan": false
+        }
+    ]
+}

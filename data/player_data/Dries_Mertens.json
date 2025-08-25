@@ -1,0 +1,55 @@
+{
+    "id": "Q11954",
+    "name": "Dries Mertens",
+    "career": [
+        {
+            "team": "KAA Gent",
+            "years": "2005–2006",
+            "apps": 0,
+            "goals": 0,
+            "loan": false
+        },
+        {
+            "team": "SC Eendracht Aalst",
+            "years": "2005–2006",
+            "apps": 14,
+            "goals": 4,
+            "loan": true
+        },
+        {
+            "team": "AGOVV Apeldoorn",
+            "years": "2006–2009",
+            "apps": 108,
+            "goals": 30,
+            "loan": false
+        },
+        {
+            "team": "FC Utrecht",
+            "years": "2009–2011",
+            "apps": 69,
+            "goals": 17,
+            "loan": false
+        },
+        {
+            "team": "PSV Eindhoven",
+            "years": "2011–2013",
+            "apps": 62,
+            "goals": 37,
+            "loan": false
+        },
+        {
+            "team": "SSC Napoli",
+            "years": "2013–2022",
+            "apps": 295,
+            "goals": 113,
+            "loan": false
+        },
+        {
+            "team": "Galatasaray S.K.",
+            "years": "2022–2025",
+            "apps": 100,
+            "goals": 20,
+            "loan": false
+        }
+    ]
+}

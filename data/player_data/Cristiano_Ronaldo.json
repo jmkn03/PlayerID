@@ -1,0 +1,48 @@
+{
+    "id": "Q11571",
+    "name": "Cristiano Ronaldo",
+    "career": [
+        {
+            "team": "Sporting CP",
+            "years": "2002–2003",
+            "apps": 25,
+            "goals": 3,
+            "loan": false
+        },
+        {
+            "team": "Manchester United F.C.",
+            "years": "2003–2009",
+            "apps": 196,
+            "goals": 84,
+            "loan": false
+        },
+        {
+            "team": "Real Madrid CF",
+            "years": "2009–2018",
+            "apps": 292,
+            "goals": 311,
+            "loan": false
+        },
+        {
+            "team": "Juventus FC",
+            "years": "2018–2021",
+            "apps": 98,
+            "goals": 81,
+            "loan": false
+        },
+        {
+            "team": "Manchester United F.C.",
+            "years": "2021–2022",
+            "apps": 40,
+            "goals": 19,
+            "loan": false
+        },
+        {
+            "team": "Al-Nassr",
+            "years": "2023–",
+            "apps": 77,
+            "goals": 74,
+            "loan": false
+        }
+    ]
+}

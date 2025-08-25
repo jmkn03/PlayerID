@@ -1,0 +1,27 @@
+{
+    "id": "Q27310755",
+    "name": "Kai Havertz",
+    "career": [
+        {
+            "team": "Bayer 04 Leverkusen",
+            "years": "2016–2020",
+            "apps": 118,
+            "goals": 36,
+            "loan": false
+        },
+        {
+            "team": "Chelsea F.C.",
+            "years": "2020–2023",
+            "apps": 91,
+            "goals": 19,
+            "loan": false
+        },
+        {
+            "team": "Arsenal F.C.",
+            "years": "2023–",
+            "apps": 57,
+            "goals": 21,
+            "loan": false
+        }
+    ]
+}

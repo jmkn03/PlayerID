@@ -1,0 +1,48 @@
+{
+    "id": "Q294806",
+    "name": "César Azpilicueta",
+    "career": [
+        {
+            "team": "Club Atlético Osasuna",
+            "years": "2001–2006",
+            "apps": null,
+            "goals": null,
+            "loan": false
+        },
+        {
+            "team": "Osasuna B",
+            "years": "2006–2007",
+            "apps": 27,
+            "goals": 1,
+            "loan": false
+        },
+        {
+            "team": "Club Atlético Osasuna",
+            "years": "2007–2010",
+            "apps": 99,
+            "goals": 0,
+            "loan": false
+        },
+        {
+            "team": "Olympique de Marseille",
+            "years": "2010–2012",
+            "apps": 47,
+            "goals": 1,
+            "loan": false
+        },
+        {
+            "team": "Chelsea F.C.",
+            "years": "2012–2023",
+            "apps": 349,
+            "goals": 10,
+            "loan": false
+        },
+        {
+            "team": "Atlético de Madrid",
+            "years": "2023–2025",
+            "apps": 39,
+            "goals": 1,
+            "loan": false
+        }
+    ]
+}

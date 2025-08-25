@@ -1,0 +1,55 @@
+{
+    "id": "Q510462",
+    "name": "Josip Iličić",
+    "career": [
+        {
+            "team": "SC Bonifika",
+            "years": "2007–2008",
+            "apps": 24,
+            "goals": 3,
+            "loan": false
+        },
+        {
+            "team": "NK Interblock",
+            "years": "2008–2010",
+            "apps": 55,
+            "goals": 12,
+            "loan": false
+        },
+        {
+            "team": "NK Maribor",
+            "years": "2010–2010",
+            "apps": 5,
+            "goals": 1,
+            "loan": true
+        },
+        {
+            "team": "Palermo F.C.",
+            "years": "2010–2013",
+            "apps": 98,
+            "goals": 20,
+            "loan": false
+        },
+        {
+            "team": "ACF Fiorentina",
+            "years": "2013–2017",
+            "apps": 106,
+            "goals": 29,
+            "loan": false
+        },
+        {
+            "team": "Atalanta BC",
+            "years": "2017–2022",
+            "apps": 136,
+            "goals": 47,
+            "loan": false
+        },
+        {
+            "team": "NK Maribor",
+            "years": "2022–",
+            "apps": null,
+            "goals": null,
+            "loan": false
+        }
+    ]
+}

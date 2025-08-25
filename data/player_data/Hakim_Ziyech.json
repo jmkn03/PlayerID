@@ -1,0 +1,55 @@
+{
+    "id": "Q327456",
+    "name": "Hakim Ziyech",
+    "career": [
+        {
+            "team": "SC Heerenveen",
+            "years": "2012–2014",
+            "apps": 36,
+            "goals": 11,
+            "loan": false
+        },
+        {
+            "team": "FC Twente",
+            "years": "2014–2016",
+            "apps": 68,
+            "goals": 30,
+            "loan": false
+        },
+        {
+            "team": "AFC Ajax",
+            "years": "2016–2020",
+            "apps": 112,
+            "goals": 39,
+            "loan": false
+        },
+        {
+            "team": "Chelsea F.C.",
+            "years": "2020–2024",
+            "apps": 64,
+            "goals": 6,
+            "loan": false
+        },
+        {
+            "team": "Galatasaray S.K.",
+            "years": "2023–2024",
+            "apps": 18,
+            "goals": 6,
+            "loan": true
+        },
+        {
+            "team": "Galatasaray S.K.",
+            "years": "2024–2025",
+            "apps": 5,
+            "goals": 0,
+            "loan": false
+        },
+        {
+            "team": "Al-Duhail SC",
+            "years": "2025–2025",
+            "apps": 9,
+            "goals": 1,
+            "loan": false
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "id": "Q107365",
+    "name": "Manuel Neuer",
+    "career": [
+        {
+            "team": "FC Schalke 04 II",
+            "years": "2004–2008",
+            "apps": 26,
+            "goals": 0,
+            "loan": false
+        },
+        {
+            "team": "Schalke 04",
+            "years": "2006–2011",
+            "apps": 156,
+            "goals": 0,
+            "loan": false
+        },
+        {
+            "team": "FC Bayern Munich",
+            "years": "2011–",
+            "apps": 367,
+            "goals": 0,
+            "loan": false
+        }
+    ]
+}

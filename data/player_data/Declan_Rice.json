@@ -1,0 +1,20 @@
+{
+    "id": "Q30007142",
+    "name": "Declan Rice",
+    "career": [
+        {
+            "team": "West Ham United F.C.",
+            "years": "2015–2023",
+            "apps": 204,
+            "goals": 10,
+            "loan": false
+        },
+        {
+            "team": "Arsenal F.C.",
+            "years": "2023–",
+            "apps": 73,
+            "goals": 11,
+            "loan": false
+        }
+    ]
+}

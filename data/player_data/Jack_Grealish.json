@@ -1,0 +1,34 @@
+{
+    "id": "Q16056053",
+    "name": "Jack Grealish",
+    "career": [
+        {
+            "team": "Aston Villa F.C.",
+            "years": "2012–2021",
+            "apps": 185,
+            "goals": 29,
+            "loan": false
+        },
+        {
+            "team": "Notts County F.C.",
+            "years": "2013–2014",
+            "apps": 37,
+            "goals": 5,
+            "loan": true
+        },
+        {
+            "team": "Manchester City F.C.",
+            "years": "2021–",
+            "apps": 94,
+            "goals": 12,
+            "loan": false
+        },
+        {
+            "team": "Everton F.C.",
+            "years": "2025–",
+            "apps": 0,
+            "goals": 0,
+            "loan": true
+        }
+    ]
+}

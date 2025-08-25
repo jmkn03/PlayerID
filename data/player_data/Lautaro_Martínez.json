@@ -1,0 +1,20 @@
+{
+    "id": "Q21484126",
+    "name": "Lautaro Martínez",
+    "career": [
+        {
+            "team": "Racing Club",
+            "years": "2015–2018",
+            "apps": 48,
+            "goals": 22,
+            "loan": false
+        },
+        {
+            "team": "Inter Milan",
+            "years": "2018–",
+            "apps": 237,
+            "goals": 115,
+            "loan": false
+        }
+    ]
+}
