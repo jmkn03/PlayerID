@@ -1,0 +1,3265 @@
+[
+  {
+    "id": "Q18237361",
+    "name": "Alisson Becker",
+    "career": [
+      {
+        "team": "S.C. Internacional",
+        "years": "2013–2016",
+        "apps": 44,
+        "goals": 0,
+        "loan": false
+      },
+      {
+        "team": "A.S. Roma",
+        "years": "2016–2018",
+        "apps": 37,
+        "goals": 0,
+        "loan": false
+      },
+      {
+        "team": "Liverpool F.C.",
+        "years": "2018–",
+        "apps": 229,
+        "goals": 1,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q4758406",
+    "name": "Andrew Robertson",
+    "career": []
+  },
+  {
+    "id": "Q66743376",
+    "name": "Ansu Fati",
+    "career": [
+      {
+        "team": "FC Barcelona",
+        "years": "2019–",
+        "apps": 86,
+        "goals": 22,
+        "loan": false
+      },
+      {
+        "team": "Brighton & Hove Albion F.C.",
+        "years": "2023–2024",
+        "apps": 19,
+        "goals": 2,
+        "loan": true
+      },
+      {
+        "team": "AS Monaco FC",
+        "years": "2025–",
+        "apps": 0,
+        "goals": 0,
+        "loan": true
+      }
+    ]
+  },
+  {
+    "id": "Q455462",
+    "name": "Antoine Griezmann",
+    "career": [
+      {
+        "team": "Club de Fútbol Monterrey",
+        "years": "",
+        "apps": null,
+        "goals": null,
+        "loan": false
+      },
+      {
+        "team": "Real Sociedad",
+        "years": "2009–2014",
+        "apps": 180,
+        "goals": 46,
+        "loan": true
+      },
+      {
+        "team": "Atlético de Madrid",
+        "years": "2014–2019",
+        "apps": 180,
+        "goals": 94,
+        "loan": true
+      },
+      {
+        "team": "FC Barcelona",
+        "years": "2019–2022",
+        "apps": 74,
+        "goals": 22,
+        "loan": true
+      },
+      {
+        "team": "Atlético de Madrid",
+        "years": "2021–2022",
+        "apps": 34,
+        "goals": 5,
+        "loan": true
+      },
+      {
+        "team": "Atlético de Madrid",
+        "years": "2022–",
+        "apps": 101,
+        "goals": 37,
+        "loan": true
+      }
+    ]
+  },
+  {
+    "id": "Q46951844",
+    "name": "Aurélien Tchouaméni",
+    "career": [
+      {
+        "team": "FC Girondins de Bordeaux",
+        "years": "2018–2020",
+        "apps": 25,
+        "goals": 0,
+        "loan": false
+      },
+      {
+        "team": "AS Monaco FC",
+        "years": "2020–2022",
+        "apps": 74,
+        "goals": 5,
+        "loan": false
+      },
+      {
+        "team": "Real Madrid CF",
+        "years": "2022–",
+        "apps": 92,
+        "goals": 3,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q3855340",
+    "name": "Aymeric Laporte",
+    "career": [
+      {
+        "team": "CD Baskonia",
+        "years": "2011–2012",
+        "apps": 33,
+        "goals": 2,
+        "loan": false
+      },
+      {
+        "team": "Athletic Bilbao B",
+        "years": "2012–2012",
+        "apps": 8,
+        "goals": 0,
+        "loan": true
+      },
+      {
+        "team": "Athletic Club",
+        "years": "2012–2018",
+        "apps": 161,
+        "goals": 7,
+        "loan": false
+      },
+      {
+        "team": "Manchester City F.C.",
+        "years": "2018–2023",
+        "apps": 121,
+        "goals": 8,
+        "loan": false
+      },
+      {
+        "team": "Al-Nassr",
+        "years": "2023–",
+        "apps": 69,
+        "goals": 9,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q21621029",
+    "name": "Ben Chilwell",
+    "career": [
+      {
+        "team": "Huddersfield Town A.F.C.",
+        "years": "2015–2016",
+        "apps": 8,
+        "goals": 0,
+        "loan": false
+      },
+      {
+        "team": "Leicester City F.C.",
+        "years": "2015–2020",
+        "apps": 99,
+        "goals": 4,
+        "loan": false
+      },
+      {
+        "team": "Chelsea F.C.",
+        "years": "2020–",
+        "apps": 70,
+        "goals": 8,
+        "loan": false
+      },
+      {
+        "team": "Crystal Palace F.C.",
+        "years": "2025–2025",
+        "apps": 8,
+        "goals": 1,
+        "loan": true
+      }
+    ]
+  },
+  {
+    "id": "Q106075808",
+    "name": "Bernardo Silva",
+    "career": []
+  },
+  {
+    "id": "Q4979316",
+    "name": "Bruno Fernandes",
+    "career": [
+      {
+        "team": "Novara Calcio",
+        "years": "2012–2013",
+        "apps": 23,
+        "goals": 4,
+        "loan": false
+      },
+      {
+        "team": "Udinese Calcio",
+        "years": "2013–2016",
+        "apps": 86,
+        "goals": 10,
+        "loan": false
+      },
+      {
+        "team": "U.C. Sampdoria",
+        "years": "2016–2017",
+        "apps": 33,
+        "goals": 5,
+        "loan": false
+      },
+      {
+        "team": "Sporting CP",
+        "years": "2017–2020",
+        "apps": 83,
+        "goals": 39,
+        "loan": false
+      },
+      {
+        "team": "Manchester United F.C.",
+        "years": "2020–",
+        "apps": 195,
+        "goals": 62,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q59306386",
+    "name": "Bukayo Saka",
+    "career": [
+      {
+        "team": "Arsenal F.C.",
+        "years": "2018–",
+        "apps": 195,
+        "goals": 53,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q616664",
+    "name": "Casemiro",
+    "career": [
+      {
+        "team": "São Paulo FC",
+        "years": "2010–2013",
+        "apps": 92,
+        "goals": 9,
+        "loan": false
+      },
+      {
+        "team": "Real Madrid CF",
+        "years": "2013–2013",
+        "apps": 1,
+        "goals": 0,
+        "loan": true
+      },
+      {
+        "team": "Real Madrid Castilla",
+        "years": "2013–2013",
+        "apps": 15,
+        "goals": 1,
+        "loan": true
+      },
+      {
+        "team": "Real Madrid CF",
+        "years": "2013–2022",
+        "apps": 221,
+        "goals": 24,
+        "loan": false
+      },
+      {
+        "team": "FC Porto",
+        "years": "2014–2015",
+        "apps": 28,
+        "goals": 3,
+        "loan": false
+      },
+      {
+        "team": "Manchester United F.C.",
+        "years": "2022–",
+        "apps": 77,
+        "goals": 6,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q294951",
+    "name": "Christian Eriksen",
+    "career": [
+      {
+        "team": "Middelfart Boldklub",
+        "years": "1995–2005",
+        "apps": null,
+        "goals": null,
+        "loan": false
+      },
+      {
+        "team": "Odense Boldklub",
+        "years": "2005–2008",
+        "apps": null,
+        "goals": null,
+        "loan": false
+      },
+      {
+        "team": "Ajax Youth Academy",
+        "years": "2008–2010",
+        "apps": null,
+        "goals": null,
+        "loan": false
+      },
+      {
+        "team": "AFC Ajax",
+        "years": "2010–2013",
+        "apps": 113,
+        "goals": 25,
+        "loan": false
+      },
+      {
+        "team": "Tottenham Hotspur F.C.",
+        "years": "2013–2020",
+        "apps": 226,
+        "goals": 51,
+        "loan": false
+      },
+      {
+        "team": "Inter Milan",
+        "years": "2020–2021",
+        "apps": 43,
+        "goals": 4,
+        "loan": false
+      },
+      {
+        "team": "Brentford F.C.",
+        "years": "2022–2022",
+        "apps": 11,
+        "goals": 1,
+        "loan": false
+      },
+      {
+        "team": "Manchester United F.C.",
+        "years": "2022–2025",
+        "apps": 73,
+        "goals": 3,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q458101",
+    "name": "Ciro Immobile",
+    "career": [
+      {
+        "team": "Juventus FC",
+        "years": "2009–2012",
+        "apps": 3,
+        "goals": 0,
+        "loan": false
+      },
+      {
+        "team": "Siena FC",
+        "years": "2010–2011",
+        "apps": 4,
+        "goals": 1,
+        "loan": true
+      },
+      {
+        "team": "U.S. Grosseto 1912",
+        "years": "2011–2011",
+        "apps": 16,
+        "goals": 1,
+        "loan": true
+      },
+      {
+        "team": "Delfino Pescara 1936",
+        "years": "2011–2012",
+        "apps": 37,
+        "goals": 28,
+        "loan": true
+      },
+      {
+        "team": "Genoa CFC",
+        "years": "2012–2013",
+        "apps": 33,
+        "goals": 5,
+        "loan": false
+      },
+      {
+        "team": "Torino FC",
+        "years": "2013–2014",
+        "apps": 33,
+        "goals": 22,
+        "loan": false
+      },
+      {
+        "team": "Borussia Dortmund",
+        "years": "2014–2015",
+        "apps": 24,
+        "goals": 3,
+        "loan": false
+      },
+      {
+        "team": "Sevilla FC",
+        "years": "2015–2016",
+        "apps": 8,
+        "goals": 2,
+        "loan": false
+      },
+      {
+        "team": "Torino FC",
+        "years": "2016–2016",
+        "apps": 14,
+        "goals": 5,
+        "loan": true
+      },
+      {
+        "team": "SS Lazio",
+        "years": "2016–2024",
+        "apps": 270,
+        "goals": 169,
+        "loan": false
+      },
+      {
+        "team": "Beşiktaş J.K.",
+        "years": "2024–2025",
+        "apps": 30,
+        "goals": 15,
+        "loan": false
+      },
+      {
+        "team": "Bologna F.C. 1909",
+        "years": "2025–",
+        "apps": null,
+        "goals": null,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q11571",
+    "name": "Cristiano Ronaldo",
+    "career": [
+      {
+        "team": "Sporting CP",
+        "years": "2002–2003",
+        "apps": 25,
+        "goals": 3,
+        "loan": false
+      },
+      {
+        "team": "Manchester United F.C.",
+        "years": "2003–2009",
+        "apps": 196,
+        "goals": 84,
+        "loan": false
+      },
+      {
+        "team": "Real Madrid CF",
+        "years": "2009–2018",
+        "apps": 292,
+        "goals": 311,
+        "loan": false
+      },
+      {
+        "team": "Juventus FC",
+        "years": "2018–2021",
+        "apps": 98,
+        "goals": 81,
+        "loan": false
+      },
+      {
+        "team": "Manchester United F.C.",
+        "years": "2021–2022",
+        "apps": 40,
+        "goals": 19,
+        "loan": false
+      },
+      {
+        "team": "Al-Nassr",
+        "years": "2023–",
+        "apps": 77,
+        "goals": 74,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q294806",
+    "name": "César Azpilicueta",
+    "career": [
+      {
+        "team": "Club Atlético Osasuna",
+        "years": "2001–2006",
+        "apps": null,
+        "goals": null,
+        "loan": false
+      },
+      {
+        "team": "Osasuna B",
+        "years": "2006–2007",
+        "apps": 27,
+        "goals": 1,
+        "loan": false
+      },
+      {
+        "team": "Club Atlético Osasuna",
+        "years": "2007–2010",
+        "apps": 99,
+        "goals": 0,
+        "loan": false
+      },
+      {
+        "team": "Olympique de Marseille",
+        "years": "2010–2012",
+        "apps": 47,
+        "goals": 1,
+        "loan": false
+      },
+      {
+        "team": "Chelsea F.C.",
+        "years": "2012–2023",
+        "apps": 349,
+        "goals": 10,
+        "loan": false
+      },
+      {
+        "team": "Atlético de Madrid",
+        "years": "2023–2025",
+        "apps": 39,
+        "goals": 1,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q127452",
+    "name": "Dani Carvajal",
+    "career": [
+      {
+        "team": "Real Madrid Castilla",
+        "years": "2010–2012",
+        "apps": 68,
+        "goals": 3,
+        "loan": false
+      },
+      {
+        "team": "Bayer 04 Leverkusen",
+        "years": "2012–2013",
+        "apps": 32,
+        "goals": 1,
+        "loan": false
+      },
+      {
+        "team": "Real Madrid CF",
+        "years": "2013–",
+        "apps": 286,
+        "goals": 10,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q31981",
+    "name": "David Alaba",
+    "career": [
+      {
+        "team": "FK Austria Wien",
+        "years": "2002–2008",
+        "apps": null,
+        "goals": null,
+        "loan": false
+      },
+      {
+        "team": "FC Bayern Munich II",
+        "years": "2009–2010",
+        "apps": 33,
+        "goals": 1,
+        "loan": false
+      },
+      {
+        "team": "FC Bayern Munich",
+        "years": "2010–2021",
+        "apps": 281,
+        "goals": 22,
+        "loan": false
+      },
+      {
+        "team": "TSG 1899 Hoffenheim",
+        "years": "2011–2011",
+        "apps": 17,
+        "goals": 2,
+        "loan": true
+      },
+      {
+        "team": "Real Madrid CF",
+        "years": "2021–",
+        "apps": 74,
+        "goals": 3,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q30007142",
+    "name": "Declan Rice",
+    "career": [
+      {
+        "team": "West Ham United F.C.",
+        "years": "2015–2023",
+        "apps": 204,
+        "goals": 10,
+        "loan": false
+      },
+      {
+        "team": "Arsenal F.C.",
+        "years": "2023–",
+        "apps": 73,
+        "goals": 11,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q11954",
+    "name": "Dries Mertens",
+    "career": [
+      {
+        "team": "KAA Gent",
+        "years": "2005–2006",
+        "apps": 0,
+        "goals": 0,
+        "loan": false
+      },
+      {
+        "team": "SC Eendracht Aalst",
+        "years": "2005–2006",
+        "apps": 14,
+        "goals": 4,
+        "loan": true
+      },
+      {
+        "team": "AGOVV Apeldoorn",
+        "years": "2006–2009",
+        "apps": 108,
+        "goals": 30,
+        "loan": false
+      },
+      {
+        "team": "FC Utrecht",
+        "years": "2009–2011",
+        "apps": 69,
+        "goals": 17,
+        "loan": false
+      },
+      {
+        "team": "PSV Eindhoven",
+        "years": "2011–2013",
+        "apps": 62,
+        "goals": 37,
+        "loan": false
+      },
+      {
+        "team": "SSC Napoli",
+        "years": "2013–2022",
+        "apps": 295,
+        "goals": 113,
+        "loan": false
+      },
+      {
+        "team": "Galatasaray S.K.",
+        "years": "2022–2025",
+        "apps": 100,
+        "goals": 20,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q214204",
+    "name": "Eden Hazard",
+    "career": [
+      {
+        "team": "Lille OSC",
+        "years": "2007–2012",
+        "apps": 147,
+        "goals": 36,
+        "loan": false
+      },
+      {
+        "team": "Lille OSC II",
+        "years": "2007–2008",
+        "apps": 13,
+        "goals": 1,
+        "loan": true
+      },
+      {
+        "team": "Chelsea F.C.",
+        "years": "2012–2019",
+        "apps": 245,
+        "goals": 85,
+        "loan": false
+      },
+      {
+        "team": "Real Madrid CF",
+        "years": "2019–2023",
+        "apps": 54,
+        "goals": 4,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q17074511",
+    "name": "Ederson Moraes",
+    "career": [
+      {
+        "team": "G.D. Ribeirão",
+        "years": "2011–2012",
+        "apps": 29,
+        "goals": 0,
+        "loan": false
+      },
+      {
+        "team": "Rio Ave F.C.",
+        "years": "2012–2015",
+        "apps": 37,
+        "goals": 0,
+        "loan": false
+      },
+      {
+        "team": "S.L. Benfica",
+        "years": "2015–2017",
+        "apps": 37,
+        "goals": 0,
+        "loan": false
+      },
+      {
+        "team": "S.L. Benfica B",
+        "years": "2015–2015",
+        "apps": 4,
+        "goals": 0,
+        "loan": true
+      },
+      {
+        "team": "Manchester City F.C.",
+        "years": "2017–",
+        "apps": 234,
+        "goals": 0,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q62960177",
+    "name": "Eduardo Camavinga",
+    "career": [
+      {
+        "team": "Real Madrid CF",
+        "years": "",
+        "apps": null,
+        "goals": null,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q28967995",
+    "name": "Erling Haaland",
+    "career": [
+      {
+        "team": "Bryne FK",
+        "years": "2016–2017",
+        "apps": 16,
+        "goals": 0,
+        "loan": false
+      },
+      {
+        "team": "Molde FK",
+        "years": "2017–2019",
+        "apps": 39,
+        "goals": 14,
+        "loan": false
+      },
+      {
+        "team": "FC Red Bull Salzburg",
+        "years": "2019–2020",
+        "apps": 16,
+        "goals": 17,
+        "loan": false
+      },
+      {
+        "team": "Borussia Dortmund",
+        "years": "2020–2022",
+        "apps": 67,
+        "goals": 62,
+        "loan": false
+      },
+      {
+        "team": "Manchester City F.C.",
+        "years": "2022–",
+        "apps": 97,
+        "goals": 85,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q19509544",
+    "name": "Fede Valverde",
+    "career": [
+      {
+        "team": "Club Atlético Peñarol",
+        "years": "2015–2016",
+        "apps": 12,
+        "goals": 0,
+        "loan": false
+      },
+      {
+        "team": "Real Madrid Castilla",
+        "years": "2016–2017",
+        "apps": 30,
+        "goals": 3,
+        "loan": false
+      },
+      {
+        "team": "Deportivo de La Coruña",
+        "years": "2017–2018",
+        "apps": 24,
+        "goals": 0,
+        "loan": false
+      },
+      {
+        "team": "Real Madrid CF",
+        "years": "2018–",
+        "apps": 211,
+        "goals": 20,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q19898898",
+    "name": "Frenkie de Jong",
+    "career": [
+      {
+        "team": "Willem II",
+        "years": "2015–2015",
+        "apps": 2,
+        "goals": 0,
+        "loan": false
+      },
+      {
+        "team": "Jong Ajax",
+        "years": "2015–2016",
+        "apps": 46,
+        "goals": 8,
+        "loan": false
+      },
+      {
+        "team": "AFC Ajax",
+        "years": "2016–2019",
+        "apps": 57,
+        "goals": 4,
+        "loan": false
+      },
+      {
+        "team": "FC Barcelona",
+        "years": "2019–",
+        "apps": null,
+        "goals": null,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q17368",
+    "name": "Gavi",
+    "career": []
+  },
+  {
+    "id": "Q17507",
+    "name": "Gerard Piqué",
+    "career": [
+      {
+        "team": "FC Barcelona",
+        "years": "1997–2004",
+        "apps": null,
+        "goals": null,
+        "loan": false
+      },
+      {
+        "team": "Manchester United F.C.",
+        "years": "2004–2008",
+        "apps": 12,
+        "goals": 0,
+        "loan": false
+      },
+      {
+        "team": "Manchester United F.C.",
+        "years": "2004–2006",
+        "apps": null,
+        "goals": null,
+        "loan": true
+      },
+      {
+        "team": "Real Zaragoza",
+        "years": "2006–2007",
+        "apps": 22,
+        "goals": 2,
+        "loan": true
+      },
+      {
+        "team": "FC Barcelona",
+        "years": "2008–2022",
+        "apps": 397,
+        "goals": 29,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q327456",
+    "name": "Hakim Ziyech",
+    "career": [
+      {
+        "team": "SC Heerenveen",
+        "years": "2012–2014",
+        "apps": 36,
+        "goals": 11,
+        "loan": false
+      },
+      {
+        "team": "FC Twente",
+        "years": "2014–2016",
+        "apps": 68,
+        "goals": 30,
+        "loan": false
+      },
+      {
+        "team": "AFC Ajax",
+        "years": "2016–2020",
+        "apps": 112,
+        "goals": 39,
+        "loan": false
+      },
+      {
+        "team": "Chelsea F.C.",
+        "years": "2020–2024",
+        "apps": 64,
+        "goals": 6,
+        "loan": false
+      },
+      {
+        "team": "Galatasaray S.K.",
+        "years": "2023–2024",
+        "apps": 18,
+        "goals": 6,
+        "loan": true
+      },
+      {
+        "team": "Galatasaray S.K.",
+        "years": "2024–2025",
+        "apps": 5,
+        "goals": 0,
+        "loan": false
+      },
+      {
+        "team": "Al-Duhail SC",
+        "years": "2025–2025",
+        "apps": 9,
+        "goals": 1,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q969725",
+    "name": "Harry Kane",
+    "career": [
+      {
+        "team": "Tottenham Hotspur F.C.",
+        "years": "2009–2023",
+        "apps": 317,
+        "goals": 213,
+        "loan": false
+      },
+      {
+        "team": "Leyton Orient F.C.",
+        "years": "2011–2011",
+        "apps": 18,
+        "goals": 5,
+        "loan": true
+      },
+      {
+        "team": "Millwall F.C.",
+        "years": "2012–2012",
+        "apps": 22,
+        "goals": 7,
+        "loan": true
+      },
+      {
+        "team": "Norwich City F.C.",
+        "years": "2012–2013",
+        "apps": 3,
+        "goals": 0,
+        "loan": true
+      },
+      {
+        "team": "Leicester City F.C.",
+        "years": "2013–2013",
+        "apps": 13,
+        "goals": 2,
+        "loan": true
+      },
+      {
+        "team": "FC Bayern Munich",
+        "years": "2023–",
+        "apps": 63,
+        "goals": 62,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q439722",
+    "name": "Heung-Min Son",
+    "career": [
+      {
+        "team": "Hamburger SV",
+        "years": "2010–2013",
+        "apps": 73,
+        "goals": 20,
+        "loan": false
+      },
+      {
+        "team": "Bayer 04 Leverkusen",
+        "years": "2013–2015",
+        "apps": 62,
+        "goals": 21,
+        "loan": false
+      },
+      {
+        "team": "Tottenham Hotspur F.C.",
+        "years": "2015–2025",
+        "apps": 333,
+        "goals": 127,
+        "loan": false
+      },
+      {
+        "team": "Los Angeles FC",
+        "years": "2025–",
+        "apps": 1,
+        "goals": 0,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q16056053",
+    "name": "Jack Grealish",
+    "career": [
+      {
+        "team": "Aston Villa F.C.",
+        "years": "2012–2021",
+        "apps": 185,
+        "goals": 29,
+        "loan": false
+      },
+      {
+        "team": "Notts County F.C.",
+        "years": "2013–2014",
+        "apps": 37,
+        "goals": 5,
+        "loan": true
+      },
+      {
+        "team": "Manchester City F.C.",
+        "years": "2021–",
+        "apps": 94,
+        "goals": 12,
+        "loan": false
+      },
+      {
+        "team": "Everton F.C.",
+        "years": "2025–",
+        "apps": 0,
+        "goals": 0,
+        "loan": true
+      }
+    ]
+  },
+  {
+    "id": "Q30148558",
+    "name": "Jadon Sancho",
+    "career": [
+      {
+        "team": "Borussia Dortmund II",
+        "years": "2017–2017",
+        "apps": 3,
+        "goals": 0,
+        "loan": false
+      },
+      {
+        "team": "Borussia Dortmund",
+        "years": "2017–2021",
+        "apps": 104,
+        "goals": 38,
+        "loan": false
+      },
+      {
+        "team": "Manchester United F.C.",
+        "years": "2021–",
+        "apps": 58,
+        "goals": 9,
+        "loan": false
+      },
+      {
+        "team": "Borussia Dortmund",
+        "years": "2024–2024",
+        "apps": 14,
+        "goals": 2,
+        "loan": true
+      },
+      {
+        "team": "Chelsea F.C.",
+        "years": "2024–",
+        "apps": 31,
+        "goals": 3,
+        "loan": true
+      }
+    ]
+  },
+  {
+    "id": "Q2025900",
+    "name": "John Stones",
+    "career": [
+      {
+        "team": "Barnsley F.C.",
+        "years": "2011–2013",
+        "apps": 24,
+        "goals": 0,
+        "loan": false
+      },
+      {
+        "team": "Everton F.C.",
+        "years": "2013–2016",
+        "apps": 77,
+        "goals": 1,
+        "loan": false
+      },
+      {
+        "team": "Manchester City F.C.",
+        "years": "2016–",
+        "apps": 171,
+        "goals": 10,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q187159",
+    "name": "Jordi Alba",
+    "career": [
+      {
+        "team": "Valencia CF Mestalla",
+        "years": "2007–2008",
+        "apps": null,
+        "goals": null,
+        "loan": false
+      },
+      {
+        "team": "Gimnàstic de Tarragona",
+        "years": "2008–2009",
+        "apps": 35,
+        "goals": 4,
+        "loan": false
+      },
+      {
+        "team": "Valencia CF",
+        "years": "2008–2012",
+        "apps": 74,
+        "goals": 5,
+        "loan": false
+      },
+      {
+        "team": "FC Barcelona",
+        "years": "2012–2023",
+        "apps": 313,
+        "goals": 17,
+        "loan": false
+      },
+      {
+        "team": "Inter Miami CF",
+        "years": "2023–",
+        "apps": 50,
+        "goals": 5,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q3810078",
+    "name": "Jorginho",
+    "career": [
+      {
+        "team": "A.C. Sambonifacese",
+        "years": "2010–2011",
+        "apps": 31,
+        "goals": 1,
+        "loan": false
+      },
+      {
+        "team": "Hellas Verona FC",
+        "years": "2010–2014",
+        "apps": 89,
+        "goals": 11,
+        "loan": false
+      },
+      {
+        "team": "SSC Napoli",
+        "years": "2014–2018",
+        "apps": 133,
+        "goals": 2,
+        "loan": false
+      },
+      {
+        "team": "Chelsea F.C.",
+        "years": "2018–2023",
+        "apps": 143,
+        "goals": 21,
+        "loan": false
+      },
+      {
+        "team": "Arsenal F.C.",
+        "years": "2023–2025",
+        "apps": 53,
+        "goals": 0,
+        "loan": false
+      },
+      {
+        "team": "Clube de Regatas do Flamengo",
+        "years": "2025–",
+        "apps": 0,
+        "goals": 0,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q13865408",
+    "name": "Joshua Kimmich",
+    "career": [
+      {
+        "team": "RB Leipzig",
+        "years": "2013–2015",
+        "apps": 55,
+        "goals": 3,
+        "loan": false
+      },
+      {
+        "team": "FC Bayern Munich",
+        "years": "2015–",
+        "apps": 295,
+        "goals": 29,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q510462",
+    "name": "Josip Iličić",
+    "career": [
+      {
+        "team": "SC Bonifika",
+        "years": "2007–2008",
+        "apps": 24,
+        "goals": 3,
+        "loan": false
+      },
+      {
+        "team": "NK Interblock",
+        "years": "2008–2010",
+        "apps": 55,
+        "goals": 12,
+        "loan": false
+      },
+      {
+        "team": "NK Maribor",
+        "years": "2010–2010",
+        "apps": 5,
+        "goals": 1,
+        "loan": true
+      },
+      {
+        "team": "Palermo F.C.",
+        "years": "2010–2013",
+        "apps": 98,
+        "goals": 20,
+        "loan": false
+      },
+      {
+        "team": "ACF Fiorentina",
+        "years": "2013–2017",
+        "apps": 106,
+        "goals": 29,
+        "loan": false
+      },
+      {
+        "team": "Atalanta BC",
+        "years": "2017–2022",
+        "apps": 136,
+        "goals": 47,
+        "loan": false
+      },
+      {
+        "team": "NK Maribor",
+        "years": "2022–",
+        "apps": null,
+        "goals": null,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q27049064",
+    "name": "João Félix",
+    "career": [
+      {
+        "team": "S.L. Benfica B",
+        "years": "2016–2018",
+        "apps": 30,
+        "goals": 7,
+        "loan": false
+      },
+      {
+        "team": "S.L. Benfica",
+        "years": "2018–2019",
+        "apps": 26,
+        "goals": 15,
+        "loan": false
+      },
+      {
+        "team": "Atlético de Madrid",
+        "years": "2019–2024",
+        "apps": 96,
+        "goals": 25,
+        "loan": false
+      },
+      {
+        "team": "Chelsea F.C.",
+        "years": "2023–2023",
+        "apps": 16,
+        "goals": 4,
+        "loan": true
+      },
+      {
+        "team": "FC Barcelona",
+        "years": "2023–2024",
+        "apps": 30,
+        "goals": 7,
+        "loan": true
+      },
+      {
+        "team": "Chelsea F.C.",
+        "years": "2024–2025",
+        "apps": 12,
+        "goals": 1,
+        "loan": false
+      },
+      {
+        "team": "AC Milan",
+        "years": "2025–2025",
+        "apps": 15,
+        "goals": 2,
+        "loan": false
+      },
+      {
+        "team": "Al-Nassr",
+        "years": "2025–",
+        "apps": 0,
+        "goals": 0,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q66241169",
+    "name": "Jude Bellingham",
+    "career": [
+      {
+        "team": "Birmingham City F.C.",
+        "years": "2019–2020",
+        "apps": 41,
+        "goals": 4,
+        "loan": false
+      },
+      {
+        "team": "Borussia Dortmund",
+        "years": "2020–2023",
+        "apps": 92,
+        "goals": 12,
+        "loan": false
+      },
+      {
+        "team": "Real Madrid CF",
+        "years": "2023–",
+        "apps": 59,
+        "goals": 28,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q27310755",
+    "name": "Kai Havertz",
+    "career": [
+      {
+        "team": "Bayer 04 Leverkusen",
+        "years": "2016–2020",
+        "apps": 118,
+        "goals": 36,
+        "loan": false
+      },
+      {
+        "team": "Chelsea F.C.",
+        "years": "2020–2023",
+        "apps": 91,
+        "goals": 19,
+        "loan": false
+      },
+      {
+        "team": "Arsenal F.C.",
+        "years": "2023–",
+        "apps": 57,
+        "goals": 21,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q3192187",
+    "name": "Kalidou Koulibaly",
+    "career": [
+      {
+        "team": "FC Metz II",
+        "years": "2009–2011",
+        "apps": 31,
+        "goals": 2,
+        "loan": false
+      },
+      {
+        "team": "FC Metz",
+        "years": "2010–2012",
+        "apps": 41,
+        "goals": 1,
+        "loan": false
+      },
+      {
+        "team": "K.R.C. Genk",
+        "years": "2012–2014",
+        "apps": 64,
+        "goals": 3,
+        "loan": false
+      },
+      {
+        "team": "SSC Napoli",
+        "years": "2014–2022",
+        "apps": 236,
+        "goals": 13,
+        "loan": false
+      },
+      {
+        "team": "Chelsea F.C.",
+        "years": "2022–2023",
+        "apps": 23,
+        "goals": 2,
+        "loan": false
+      },
+      {
+        "team": "Al Hilal SFC",
+        "years": "2023–",
+        "apps": 60,
+        "goals": 4,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q1912",
+    "name": "Karim Benzema",
+    "career": [
+      {
+        "team": "Olympique Lyonnais",
+        "years": "2004–2006",
+        "apps": 20,
+        "goals": 15,
+        "loan": false
+      },
+      {
+        "team": "Olympique Lyonnais",
+        "years": "2004–2009",
+        "apps": 112,
+        "goals": 43,
+        "loan": false
+      },
+      {
+        "team": "Real Madrid CF",
+        "years": "2009–2023",
+        "apps": 439,
+        "goals": 238,
+        "loan": false
+      },
+      {
+        "team": "Al Ittihad FC",
+        "years": "2023–",
+        "apps": 50,
+        "goals": 30,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q357984",
+    "name": "Kevin De Bruyne",
+    "career": [
+      {
+        "team": "K.R.C. Genk",
+        "years": "2008–2012",
+        "apps": 97,
+        "goals": 16,
+        "loan": false
+      },
+      {
+        "team": "Chelsea F.C.",
+        "years": "2012–2014",
+        "apps": 3,
+        "goals": 0,
+        "loan": false
+      },
+      {
+        "team": "SV Werder Bremen",
+        "years": "2012–2013",
+        "apps": 33,
+        "goals": 10,
+        "loan": true
+      },
+      {
+        "team": "VfL Wolfsburg",
+        "years": "2014–2015",
+        "apps": 52,
+        "goals": 13,
+        "loan": false
+      },
+      {
+        "team": "Manchester City F.C.",
+        "years": "2015–2025",
+        "apps": 285,
+        "goals": 72,
+        "loan": false
+      },
+      {
+        "team": "SSC Napoli",
+        "years": "2025–",
+        "apps": null,
+        "goals": null,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q6413296",
+    "name": "Kingsley Coman",
+    "career": [
+      {
+        "team": "Paris Saint-Germain FC",
+        "years": "2013–2014",
+        "apps": 3,
+        "goals": 0,
+        "loan": false
+      },
+      {
+        "team": "Paris Saint-Germain FC Youth Academy",
+        "years": "2013–2014",
+        "apps": 16,
+        "goals": 0,
+        "loan": true
+      },
+      {
+        "team": "Juventus FC",
+        "years": "2014–2017",
+        "apps": 15,
+        "goals": 0,
+        "loan": false
+      },
+      {
+        "team": "FC Bayern Munich",
+        "years": "2015–2017",
+        "apps": 42,
+        "goals": 6,
+        "loan": true
+      },
+      {
+        "team": "FC Bayern Munich",
+        "years": "2017–2025",
+        "apps": 185,
+        "goals": 40,
+        "loan": false
+      },
+      {
+        "team": "Al-Nassr",
+        "years": "2025–",
+        "apps": 0,
+        "goals": 0,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q59108",
+    "name": "Kyle Walker",
+    "career": [
+      {
+        "team": "Northampton Town F.C.",
+        "years": "2008–2008",
+        "apps": 9,
+        "goals": 0,
+        "loan": false
+      },
+      {
+        "team": "Sheffield United F.C.",
+        "years": "2008–2009",
+        "apps": 2,
+        "goals": 0,
+        "loan": false
+      },
+      {
+        "team": "Sheffield United F.C.",
+        "years": "2009–2010",
+        "apps": 26,
+        "goals": 0,
+        "loan": false
+      },
+      {
+        "team": "Tottenham Hotspur F.C.",
+        "years": "2009–2017",
+        "apps": 183,
+        "goals": 4,
+        "loan": false
+      },
+      {
+        "team": "Queens Park Rangers F.C.",
+        "years": "2010–2011",
+        "apps": 20,
+        "goals": 0,
+        "loan": true
+      },
+      {
+        "team": "Aston Villa F.C.",
+        "years": "2011–2011",
+        "apps": 15,
+        "goals": 1,
+        "loan": true
+      },
+      {
+        "team": "Manchester City F.C.",
+        "years": "2017–2025",
+        "apps": 212,
+        "goals": 3,
+        "loan": false
+      },
+      {
+        "team": "AC Milan",
+        "years": "2025–2025",
+        "apps": 11,
+        "goals": 0,
+        "loan": true
+      },
+      {
+        "team": "Burnley F.C.",
+        "years": "2025–",
+        "apps": null,
+        "goals": null,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q21621995",
+    "name": "Kylian Mbappé",
+    "career": [
+      {
+        "team": "AS Monaco FC II",
+        "years": "2015–2016",
+        "apps": 12,
+        "goals": 4,
+        "loan": false
+      },
+      {
+        "team": "AS Monaco FC",
+        "years": "2015–2018",
+        "apps": 41,
+        "goals": 16,
+        "loan": false
+      },
+      {
+        "team": "Paris Saint-Germain FC",
+        "years": "2017–2018",
+        "apps": 27,
+        "goals": 13,
+        "loan": true
+      },
+      {
+        "team": "Paris Saint-Germain FC",
+        "years": "2018–2024",
+        "apps": 178,
+        "goals": 162,
+        "loan": false
+      },
+      {
+        "team": "Real Madrid CF",
+        "years": "2024–",
+        "apps": 34,
+        "goals": 31,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q21484126",
+    "name": "Lautaro Martínez",
+    "career": [
+      {
+        "team": "Racing Club",
+        "years": "2015–2018",
+        "apps": 48,
+        "goals": 22,
+        "loan": false
+      },
+      {
+        "team": "Inter Milan",
+        "years": "2018–",
+        "apps": 237,
+        "goals": 115,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q520721",
+    "name": "Leon Goretzka",
+    "career": [
+      {
+        "team": "VfL Bochum",
+        "years": "2012–2013",
+        "apps": 32,
+        "goals": 4,
+        "loan": false
+      },
+      {
+        "team": "Schalke 04",
+        "years": "2013–2018",
+        "apps": 116,
+        "goals": 14,
+        "loan": false
+      },
+      {
+        "team": "FC Schalke 04 II",
+        "years": "2015–2015",
+        "apps": 1,
+        "goals": 0,
+        "loan": true
+      },
+      {
+        "team": "FC Bayern Munich",
+        "years": "2018–",
+        "apps": 180,
+        "goals": 35,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q16499882",
+    "name": "Leroy Sané",
+    "career": [
+      {
+        "team": "Schalke 04",
+        "years": "2014–2016",
+        "apps": 47,
+        "goals": 11,
+        "loan": false
+      },
+      {
+        "team": "Manchester City F.C.",
+        "years": "2016–2020",
+        "apps": 90,
+        "goals": 25,
+        "loan": false
+      },
+      {
+        "team": "FC Bayern Munich",
+        "years": "2020–2025",
+        "apps": 153,
+        "goals": 40,
+        "loan": false
+      },
+      {
+        "team": "Galatasaray S.K.",
+        "years": "2025–",
+        "apps": 0,
+        "goals": 0,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q615",
+    "name": "Lionel Messi",
+    "career": [
+      {
+        "team": "Newell's Old Boys",
+        "years": "1995–2000",
+        "apps": 176,
+        "goals": 234,
+        "loan": false
+      },
+      {
+        "team": "FC Barcelona C",
+        "years": "2003–2004",
+        "apps": 10,
+        "goals": 5,
+        "loan": false
+      },
+      {
+        "team": "FC Barcelona Juvenil A",
+        "years": "2003–2004",
+        "apps": 21,
+        "goals": 31,
+        "loan": true
+      },
+      {
+        "team": "FC Barcelona Atlètic",
+        "years": "2004–2005",
+        "apps": 22,
+        "goals": 6,
+        "loan": false
+      },
+      {
+        "team": "FC Barcelona",
+        "years": "2004–2021",
+        "apps": 520,
+        "goals": 474,
+        "loan": false
+      },
+      {
+        "team": "Paris Saint-Germain FC",
+        "years": "2021–2023",
+        "apps": 58,
+        "goals": 22,
+        "loan": false
+      },
+      {
+        "team": "Inter Miami CF",
+        "years": "2023–",
+        "apps": 43,
+        "goals": 39,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q483837",
+    "name": "Luka Modrić",
+    "career": [
+      {
+        "team": "GNK Dinamo Zagreb",
+        "years": "2003–2008",
+        "apps": 94,
+        "goals": 27,
+        "loan": false
+      },
+      {
+        "team": "HŠK Zrinjski Mostar",
+        "years": "2003–2004",
+        "apps": 22,
+        "goals": 8,
+        "loan": true
+      },
+      {
+        "team": "NK Inter Zaprešić",
+        "years": "2004–2005",
+        "apps": 18,
+        "goals": 4,
+        "loan": true
+      },
+      {
+        "team": "Tottenham Hotspur F.C.",
+        "years": "2008–2012",
+        "apps": 127,
+        "goals": 13,
+        "loan": false
+      },
+      {
+        "team": "Real Madrid CF",
+        "years": "2012–2025",
+        "apps": 394,
+        "goals": 30,
+        "loan": false
+      },
+      {
+        "team": "AC Milan",
+        "years": "2025–",
+        "apps": 0,
+        "goals": 0,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q107365",
+    "name": "Manuel Neuer",
+    "career": [
+      {
+        "team": "FC Schalke 04 II",
+        "years": "2004–2008",
+        "apps": 26,
+        "goals": 0,
+        "loan": false
+      },
+      {
+        "team": "Schalke 04",
+        "years": "2006–2011",
+        "apps": 156,
+        "goals": 0,
+        "loan": false
+      },
+      {
+        "team": "FC Bayern Munich",
+        "years": "2011–",
+        "apps": 367,
+        "goals": 0,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q22951255",
+    "name": "Marcus Rashford",
+    "career": [
+      {
+        "team": "Manchester United F.C.",
+        "years": "2015–",
+        "apps": 287,
+        "goals": 87,
+        "loan": false
+      },
+      {
+        "team": "Aston Villa F.C.",
+        "years": "2025–2025",
+        "apps": 10,
+        "goals": 2,
+        "loan": true
+      },
+      {
+        "team": "FC Barcelona",
+        "years": "2025–",
+        "apps": 0,
+        "goals": 0,
+        "loan": true
+      }
+    ]
+  },
+  {
+    "id": "Q21285860",
+    "name": "Marquinhos",
+    "career": []
+  },
+  {
+    "id": "Q38000669",
+    "name": "Mason Mount",
+    "career": [
+      {
+        "team": "Chelsea F.C.",
+        "years": "2017–2023",
+        "apps": 129,
+        "goals": 27,
+        "loan": false
+      },
+      {
+        "team": "SBV Vitesse",
+        "years": "2017–2018",
+        "apps": 29,
+        "goals": 9,
+        "loan": true
+      },
+      {
+        "team": "Derby County F.C.",
+        "years": "2018–2019",
+        "apps": 35,
+        "goals": 8,
+        "loan": true
+      },
+      {
+        "team": "Manchester United F.C.",
+        "years": "2023–",
+        "apps": null,
+        "goals": null,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q26259982",
+    "name": "Matthijs de Ligt",
+    "career": [
+      {
+        "team": "AFC Ajax",
+        "years": "2016–2019",
+        "apps": 117,
+        "goals": 13,
+        "loan": false
+      },
+      {
+        "team": "Juventus FC",
+        "years": "2019–2022",
+        "apps": 117,
+        "goals": 8,
+        "loan": false
+      },
+      {
+        "team": "FC Bayern Munich",
+        "years": "2022–2024",
+        "apps": 53,
+        "goals": 5,
+        "loan": false
+      },
+      {
+        "team": "Manchester United F.C.",
+        "years": "2024–",
+        "apps": 29,
+        "goals": 2,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q1894",
+    "name": "Memphis Depay",
+    "career": [
+      {
+        "team": "PSV Eindhoven",
+        "years": "2011–2015",
+        "apps": 90,
+        "goals": 39,
+        "loan": false
+      },
+      {
+        "team": "Manchester United F.C.",
+        "years": "2015–2017",
+        "apps": 33,
+        "goals": 2,
+        "loan": false
+      },
+      {
+        "team": "Olympique Lyonnais",
+        "years": "2017–2021",
+        "apps": 139,
+        "goals": 63,
+        "loan": false
+      },
+      {
+        "team": "FC Barcelona",
+        "years": "2021–2023",
+        "apps": 30,
+        "goals": 13,
+        "loan": false
+      },
+      {
+        "team": "Atlético de Madrid",
+        "years": "2023–2024",
+        "apps": 31,
+        "goals": 9,
+        "loan": false
+      },
+      {
+        "team": "S.C. Corinthians Paulista",
+        "years": "2024–",
+        "apps": 28,
+        "goals": 12,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q1354960",
+    "name": "Mohamed Salah",
+    "career": [
+      {
+        "team": "Al Mokawloon Al Arab SC",
+        "years": "2010–2012",
+        "apps": 37,
+        "goals": 11,
+        "loan": false
+      },
+      {
+        "team": "FC Basel",
+        "years": "2012–2014",
+        "apps": 47,
+        "goals": 9,
+        "loan": false
+      },
+      {
+        "team": "Chelsea F.C.",
+        "years": "2014–2015",
+        "apps": 13,
+        "goals": 2,
+        "loan": false
+      },
+      {
+        "team": "ACF Fiorentina",
+        "years": "2015–2015",
+        "apps": 16,
+        "goals": 6,
+        "loan": true
+      },
+      {
+        "team": "A.S. Roma",
+        "years": "2015–2016",
+        "apps": 34,
+        "goals": 14,
+        "loan": false
+      },
+      {
+        "team": "A.S. Roma",
+        "years": "2016–2017",
+        "apps": 31,
+        "goals": 15,
+        "loan": false
+      },
+      {
+        "team": "Liverpool F.C.",
+        "years": "2017–",
+        "apps": 288,
+        "goals": 184,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q142794",
+    "name": "Neymar Jr",
+    "career": [
+      {
+        "team": "Santos F.C.",
+        "years": "2009–2013",
+        "apps": 102,
+        "goals": 54,
+        "loan": false
+      },
+      {
+        "team": "FC Barcelona",
+        "years": "2013–2017",
+        "apps": 123,
+        "goals": 68,
+        "loan": false
+      },
+      {
+        "team": "Paris Saint-Germain FC",
+        "years": "2017–2023",
+        "apps": 112,
+        "goals": 82,
+        "loan": false
+      },
+      {
+        "team": "Al Hilal SFC",
+        "years": "2023–2025",
+        "apps": 3,
+        "goals": 0,
+        "loan": false
+      },
+      {
+        "team": "Santos F.C.",
+        "years": "2025–",
+        "apps": 11,
+        "goals": 3,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q16665941",
+    "name": "NGolo Kanté",
+    "career": [
+      {
+        "team": "US Boulogne",
+        "years": "2011–2013",
+        "apps": 38,
+        "goals": 3,
+        "loan": false
+      },
+      {
+        "team": "Stade Malherbe Caen",
+        "years": "2013–2015",
+        "apps": 75,
+        "goals": 4,
+        "loan": false
+      },
+      {
+        "team": "Leicester City F.C.",
+        "years": "2015–2016",
+        "apps": 37,
+        "goals": 1,
+        "loan": false
+      },
+      {
+        "team": "Chelsea F.C.",
+        "years": "2016–2023",
+        "apps": 190,
+        "goals": 11,
+        "loan": false
+      },
+      {
+        "team": "Al Ittihad FC",
+        "years": "2023–",
+        "apps": 61,
+        "goals": 6,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q20851003",
+    "name": "Ousmane Dembélé",
+    "career": [
+      {
+        "team": "Stade Rennais F.C.",
+        "years": "2015–2016",
+        "apps": 26,
+        "goals": 12,
+        "loan": false
+      },
+      {
+        "team": "Borussia Dortmund",
+        "years": "2016–2017",
+        "apps": 32,
+        "goals": 6,
+        "loan": false
+      },
+      {
+        "team": "FC Barcelona",
+        "years": "2017–2023",
+        "apps": 127,
+        "goals": 24,
+        "loan": false
+      },
+      {
+        "team": "Paris Saint-Germain FC",
+        "years": "2023–",
+        "apps": 55,
+        "goals": 24,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q129027",
+    "name": "Paul Pogba",
+    "career": [
+      {
+        "team": "Manchester United F.C.",
+        "years": "2011–2012",
+        "apps": 3,
+        "goals": 0,
+        "loan": false
+      },
+      {
+        "team": "Juventus FC",
+        "years": "2012–2016",
+        "apps": 124,
+        "goals": 28,
+        "loan": false
+      },
+      {
+        "team": "Manchester United F.C.",
+        "years": "2016–2022",
+        "apps": 154,
+        "goals": 29,
+        "loan": false
+      },
+      {
+        "team": "Juventus FC",
+        "years": "2022–2024",
+        "apps": 8,
+        "goals": 0,
+        "loan": false
+      },
+      {
+        "team": "AS Monaco FC",
+        "years": "2025–",
+        "apps": null,
+        "goals": null,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q66606355",
+    "name": "Pedri",
+    "career": [
+      {
+        "team": "UD Las Palmas",
+        "years": "2019–2020",
+        "apps": 36,
+        "goals": 4,
+        "loan": false
+      },
+      {
+        "team": "FC Barcelona",
+        "years": "2020–",
+        "apps": 136,
+        "goals": 20,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q30729096",
+    "name": "Phil Foden",
+    "career": [
+      {
+        "team": "Manchester City F.C.",
+        "years": "2016–",
+        "apps": 192,
+        "goals": 61,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q44977",
+    "name": "Pierre-Emerick Aubameyang",
+    "career": [
+      {
+        "team": "Stade Lavallois",
+        "years": "1999–2001",
+        "apps": null,
+        "goals": null,
+        "loan": false
+      },
+      {
+        "team": "AC Milan",
+        "years": "2007–2011",
+        "apps": 0,
+        "goals": 0,
+        "loan": false
+      },
+      {
+        "team": "Dijon FCO",
+        "years": "2008–2009",
+        "apps": 34,
+        "goals": 8,
+        "loan": true
+      },
+      {
+        "team": "Lille OSC",
+        "years": "2009–2010",
+        "apps": 14,
+        "goals": 2,
+        "loan": true
+      },
+      {
+        "team": "AS Monaco FC",
+        "years": "2010–2011",
+        "apps": 19,
+        "goals": 2,
+        "loan": true
+      },
+      {
+        "team": "AS Saint-Étienne",
+        "years": "2011–2013",
+        "apps": 87,
+        "goals": 37,
+        "loan": false
+      },
+      {
+        "team": "Borussia Dortmund",
+        "years": "2013–2018",
+        "apps": 144,
+        "goals": 98,
+        "loan": false
+      },
+      {
+        "team": "Arsenal F.C.",
+        "years": "2018–2022",
+        "apps": 128,
+        "goals": 68,
+        "loan": false
+      },
+      {
+        "team": "FC Barcelona",
+        "years": "2022–2022",
+        "apps": 18,
+        "goals": 11,
+        "loan": true
+      },
+      {
+        "team": "Chelsea F.C.",
+        "years": "2022–2023",
+        "apps": 15,
+        "goals": 1,
+        "loan": false
+      },
+      {
+        "team": "Olympique de Marseille",
+        "years": "2023–2024",
+        "apps": 34,
+        "goals": 17,
+        "loan": false
+      },
+      {
+        "team": "Al Qadsiah FC",
+        "years": "2024–2025",
+        "apps": 32,
+        "goals": 17,
+        "loan": false
+      },
+      {
+        "team": "Olympique de Marseille",
+        "years": "2025–",
+        "apps": 0,
+        "goals": 0,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q312157",
+    "name": "Raheem Sterling",
+    "career": [
+      {
+        "team": "Liverpool F.C.",
+        "years": "2012–2015",
+        "apps": 95,
+        "goals": 18,
+        "loan": false
+      },
+      {
+        "team": "Manchester City F.C.",
+        "years": "2015–2022",
+        "apps": 225,
+        "goals": 91,
+        "loan": false
+      },
+      {
+        "team": "Chelsea F.C.",
+        "years": "2022–",
+        "apps": 59,
+        "goals": 14,
+        "loan": false
+      },
+      {
+        "team": "Arsenal F.C.",
+        "years": "2024–2025",
+        "apps": 17,
+        "goals": 0,
+        "loan": true
+      }
+    ]
+  },
+  {
+    "id": "Q489039",
+    "name": "Raphaël Varane",
+    "career": [
+      {
+        "team": "R.C. Lens",
+        "years": "2010–2011",
+        "apps": 23,
+        "goals": 2,
+        "loan": false
+      },
+      {
+        "team": "Real Madrid CF",
+        "years": "2011–2021",
+        "apps": 236,
+        "goals": 8,
+        "loan": false
+      },
+      {
+        "team": "Manchester United F.C.",
+        "years": "2021–2024",
+        "apps": 68,
+        "goals": 2,
+        "loan": false
+      },
+      {
+        "team": "Como 1907",
+        "years": "2024–2024",
+        "apps": 0,
+        "goals": 0,
+        "loan": true
+      }
+    ]
+  },
+  {
+    "id": "Q39076401",
+    "name": "Reece James",
+    "career": [
+      {
+        "team": "Wigan Athletic F.C.",
+        "years": "2018–2019",
+        "apps": 45,
+        "goals": 3,
+        "loan": false
+      },
+      {
+        "team": "Chelsea F.C.",
+        "years": "2018–",
+        "apps": null,
+        "goals": null,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q8338725",
+    "name": "Riyad Mahrez",
+    "career": [
+      {
+        "team": "Quimper Kerfeunteun F.C.",
+        "years": "2009–2010",
+        "apps": 27,
+        "goals": 1,
+        "loan": false
+      },
+      {
+        "team": "Le Havre AC",
+        "years": "2011–2013",
+        "apps": 60,
+        "goals": 24,
+        "loan": false
+      },
+      {
+        "team": "Leicester City F.C.",
+        "years": "2014–2018",
+        "apps": 179,
+        "goals": 48,
+        "loan": false
+      },
+      {
+        "team": "Manchester City F.C.",
+        "years": "2018–2023",
+        "apps": 145,
+        "goals": 43,
+        "loan": false
+      },
+      {
+        "team": "Al-Ahli Saudi FC",
+        "years": "2023–",
+        "apps": 51,
+        "goals": 16,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q151269",
+    "name": "Robert Lewandowski",
+    "career": [
+      {
+        "team": "Znicz Pruszków",
+        "years": "2006–2008",
+        "apps": 59,
+        "goals": 36,
+        "loan": false
+      },
+      {
+        "team": "Lech Poznań",
+        "years": "2008–2010",
+        "apps": 58,
+        "goals": 32,
+        "loan": false
+      },
+      {
+        "team": "Borussia Dortmund",
+        "years": "2010–2014",
+        "apps": 131,
+        "goals": 74,
+        "loan": false
+      },
+      {
+        "team": "FC Bayern Munich",
+        "years": "2014–2022",
+        "apps": 253,
+        "goals": 238,
+        "loan": false
+      },
+      {
+        "team": "FC Barcelona",
+        "years": "2022–",
+        "apps": 103,
+        "goals": 69,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q20994118",
+    "name": "Rodri",
+    "career": [
+      {
+        "team": "Villarreal CF",
+        "years": "2015–2018",
+        "apps": 63,
+        "goals": 1,
+        "loan": false
+      },
+      {
+        "team": "Villarreal CF B",
+        "years": "2015–2015",
+        "apps": 39,
+        "goals": 1,
+        "loan": true
+      },
+      {
+        "team": "Atlético de Madrid",
+        "years": "2018–2019",
+        "apps": 34,
+        "goals": 3,
+        "loan": false
+      },
+      {
+        "team": "Manchester City F.C.",
+        "years": "2019–",
+        "apps": 175,
+        "goals": 22,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q313316",
+    "name": "Romelu Lukaku",
+    "career": [
+      {
+        "team": "R.S.C. Anderlecht",
+        "years": "2009–2011",
+        "apps": 73,
+        "goals": 33,
+        "loan": false
+      },
+      {
+        "team": "Chelsea F.C.",
+        "years": "2011–2014",
+        "apps": 10,
+        "goals": 0,
+        "loan": false
+      },
+      {
+        "team": "West Bromwich Albion F.C.",
+        "years": "2012–2013",
+        "apps": 35,
+        "goals": 17,
+        "loan": true
+      },
+      {
+        "team": "Everton F.C.",
+        "years": "2013–2014",
+        "apps": 31,
+        "goals": 15,
+        "loan": true
+      },
+      {
+        "team": "Everton F.C.",
+        "years": "2014–2017",
+        "apps": 110,
+        "goals": 53,
+        "loan": false
+      },
+      {
+        "team": "Manchester United F.C.",
+        "years": "2017–2019",
+        "apps": 66,
+        "goals": 28,
+        "loan": false
+      },
+      {
+        "team": "Inter Milan",
+        "years": "2019–2021",
+        "apps": 72,
+        "goals": 47,
+        "loan": false
+      },
+      {
+        "team": "Chelsea F.C.",
+        "years": "2021–2024",
+        "apps": 26,
+        "goals": 8,
+        "loan": false
+      },
+      {
+        "team": "Inter Milan",
+        "years": "2022–2023",
+        "apps": 25,
+        "goals": 10,
+        "loan": false
+      },
+      {
+        "team": "A.S. Roma",
+        "years": "2023–2024",
+        "apps": 32,
+        "goals": 13,
+        "loan": false
+      },
+      {
+        "team": "SSC Napoli",
+        "years": "2024–",
+        "apps": 36,
+        "goals": 14,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q21621168",
+    "name": "Ruben Dias",
+    "career": [
+      {
+        "team": "S.L. Benfica B",
+        "years": "2015–2017",
+        "apps": 55,
+        "goals": 0,
+        "loan": false
+      },
+      {
+        "team": "S.L. Benfica",
+        "years": "2017–2020",
+        "apps": 91,
+        "goals": 9,
+        "loan": false
+      },
+      {
+        "team": "Manchester City F.C.",
+        "years": "2020–",
+        "apps": 144,
+        "goals": 3,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q209942",
+    "name": "Sadio Mané",
+    "career": [
+      {
+        "team": "FC Metz",
+        "years": "2010–2012",
+        "apps": 22,
+        "goals": 2,
+        "loan": false
+      },
+      {
+        "team": "FC Red Bull Salzburg",
+        "years": "2012–2014",
+        "apps": 63,
+        "goals": 31,
+        "loan": false
+      },
+      {
+        "team": "Southampton F.C.",
+        "years": "2014–2016",
+        "apps": 67,
+        "goals": 21,
+        "loan": false
+      },
+      {
+        "team": "Liverpool F.C.",
+        "years": "2016–2022",
+        "apps": 196,
+        "goals": 90,
+        "loan": false
+      },
+      {
+        "team": "FC Bayern Munich",
+        "years": "2022–2023",
+        "apps": 25,
+        "goals": 7,
+        "loan": false
+      },
+      {
+        "team": "Al-Nassr",
+        "years": "2023–",
+        "apps": 64,
+        "goals": 27,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q59490",
+    "name": "Serge Gnabry",
+    "career": [
+      {
+        "team": "Club Atlético River Plate",
+        "years": "",
+        "apps": null,
+        "goals": null,
+        "loan": false
+      },
+      {
+        "team": "Arsenal F.C.",
+        "years": "2012–2016",
+        "apps": 10,
+        "goals": 1,
+        "loan": true
+      },
+      {
+        "team": "West Bromwich Albion F.C.",
+        "years": "2015–2016",
+        "apps": 1,
+        "goals": 0,
+        "loan": true
+      },
+      {
+        "team": "SV Werder Bremen",
+        "years": "2016–2017",
+        "apps": 27,
+        "goals": 11,
+        "loan": true
+      },
+      {
+        "team": "FC Bayern Munich",
+        "years": "2017–",
+        "apps": null,
+        "goals": null,
+        "loan": true
+      },
+      {
+        "team": "TSG 1899 Hoffenheim",
+        "years": "2017–2018",
+        "apps": 22,
+        "goals": 10,
+        "loan": true
+      }
+    ]
+  },
+  {
+    "id": "Q483309",
+    "name": "Sergio Ramos",
+    "career": [
+      {
+        "team": "Sevilla FC",
+        "years": "2004–2005",
+        "apps": 39,
+        "goals": 2,
+        "loan": false
+      },
+      {
+        "team": "Real Madrid CF",
+        "years": "2005–2021",
+        "apps": 469,
+        "goals": 72,
+        "loan": false
+      },
+      {
+        "team": "Paris Saint-Germain FC",
+        "years": "2021–2023",
+        "apps": 45,
+        "goals": 4,
+        "loan": false
+      },
+      {
+        "team": "Sevilla FC",
+        "years": "2023–2024",
+        "apps": 28,
+        "goals": 3,
+        "loan": false
+      },
+      {
+        "team": "Club de Fútbol Monterrey",
+        "years": "2025–",
+        "apps": 8,
+        "goals": 3,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q17493",
+    "name": "Thiago Alcântara",
+    "career": [
+      {
+        "team": "FC Barcelona Atlètic",
+        "years": "2008–2011",
+        "apps": 59,
+        "goals": 3,
+        "loan": false
+      },
+      {
+        "team": "FC Barcelona",
+        "years": "2009–2013",
+        "apps": 68,
+        "goals": 7,
+        "loan": false
+      },
+      {
+        "team": "FC Bayern Munich",
+        "years": "2013–2020",
+        "apps": 150,
+        "goals": 17,
+        "loan": false
+      },
+      {
+        "team": "Liverpool F.C.",
+        "years": "2020–2024",
+        "apps": 68,
+        "goals": 2,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q210453",
+    "name": "Thiago Silva",
+    "career": [
+      {
+        "team": "Fluminense F.C.",
+        "years": "1998–2000",
+        "apps": null,
+        "goals": null,
+        "loan": false
+      },
+      {
+        "team": "Barcelona Esporte Clube",
+        "years": "2000–2001",
+        "apps": null,
+        "goals": null,
+        "loan": false
+      },
+      {
+        "team": "Fluminense F.C.",
+        "years": "2001–2001",
+        "apps": null,
+        "goals": null,
+        "loan": true
+      },
+      {
+        "team": "Pedrabranca Futebol Clube",
+        "years": "2002–2003",
+        "apps": 25,
+        "goals": 2,
+        "loan": false
+      },
+      {
+        "team": "Esporte Clube Juventude",
+        "years": "2003–2004",
+        "apps": 28,
+        "goals": 3,
+        "loan": false
+      },
+      {
+        "team": "FC Porto",
+        "years": "2004–2005",
+        "apps": 0,
+        "goals": 0,
+        "loan": false
+      },
+      {
+        "team": "F.C. Porto B",
+        "years": "2004–2005",
+        "apps": 14,
+        "goals": 5,
+        "loan": true
+      },
+      {
+        "team": "FC Dinamo Moscow",
+        "years": "2005–2005",
+        "apps": 0,
+        "goals": 0,
+        "loan": true
+      },
+      {
+        "team": "Fluminense F.C.",
+        "years": "2006–2008",
+        "apps": 81,
+        "goals": 6,
+        "loan": false
+      },
+      {
+        "team": "AC Milan",
+        "years": "2009–2012",
+        "apps": 93,
+        "goals": 5,
+        "loan": false
+      },
+      {
+        "team": "Paris Saint-Germain FC",
+        "years": "2012–2020",
+        "apps": 204,
+        "goals": 9,
+        "loan": false
+      },
+      {
+        "team": "Chelsea F.C.",
+        "years": "2020–2024",
+        "apps": 113,
+        "goals": 8,
+        "loan": false
+      },
+      {
+        "team": "Fluminense F.C.",
+        "years": "2024–",
+        "apps": 29,
+        "goals": 1,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q2426220",
+    "name": "Thomas Müller",
+    "career": []
+  },
+  {
+    "id": "Q3529022",
+    "name": "Timo Werner",
+    "career": [
+      {
+        "team": "VfB Stuttgart",
+        "years": "2013–2016",
+        "apps": 95,
+        "goals": 13,
+        "loan": false
+      },
+      {
+        "team": "VfB Stuttgart II",
+        "years": "2014–2014",
+        "apps": 1,
+        "goals": 1,
+        "loan": true
+      },
+      {
+        "team": "RB Leipzig",
+        "years": "2016–2020",
+        "apps": 127,
+        "goals": 78,
+        "loan": false
+      },
+      {
+        "team": "Chelsea F.C.",
+        "years": "2020–2022",
+        "apps": 56,
+        "goals": 10,
+        "loan": false
+      },
+      {
+        "team": "RB Leipzig",
+        "years": "2022–",
+        "apps": 35,
+        "goals": 11,
+        "loan": false
+      },
+      {
+        "team": "Tottenham Hotspur F.C.",
+        "years": "2024–2025",
+        "apps": 31,
+        "goals": 2,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q131234",
+    "name": "Toni Kroos",
+    "career": [
+      {
+        "team": "FC Bayern Munich",
+        "years": "2007–2014",
+        "apps": 130,
+        "goals": 13,
+        "loan": false
+      },
+      {
+        "team": "Bayer 04 Leverkusen",
+        "years": "2009–2010",
+        "apps": 43,
+        "goals": 10,
+        "loan": true
+      },
+      {
+        "team": "Real Madrid CF",
+        "years": "2014–2024",
+        "apps": 306,
+        "goals": 22,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q27569376",
+    "name": "Trent Alexander-Arnold",
+    "career": [
+      {
+        "team": "Liverpool F.C.",
+        "years": "2016–2025",
+        "apps": 259,
+        "goals": 18,
+        "loan": false
+      },
+      {
+        "team": "Real Madrid CF",
+        "years": "2025–",
+        "apps": null,
+        "goals": null,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q28973866",
+    "name": "Vinícius Jr",
+    "career": [
+      {
+        "team": "Clube de Regatas do Flamengo",
+        "years": "2017–2018",
+        "apps": 50,
+        "goals": 11,
+        "loan": false
+      },
+      {
+        "team": "Real Madrid CF",
+        "years": "2018–",
+        "apps": 206,
+        "goals": 61,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q133903",
+    "name": "Virgil van Dijk",
+    "career": [
+      {
+        "team": "FC Groningen",
+        "years": "2011–2013",
+        "apps": 62,
+        "goals": 7,
+        "loan": false
+      },
+      {
+        "team": "Celtic F.C.",
+        "years": "2013–2015",
+        "apps": 76,
+        "goals": 9,
+        "loan": false
+      },
+      {
+        "team": "Southampton F.C.",
+        "years": "2015–2018",
+        "apps": 67,
+        "goals": 4,
+        "loan": false
+      },
+      {
+        "team": "Liverpool F.C.",
+        "years": "2018–",
+        "apps": 233,
+        "goals": 21,
+        "loan": false
+      }
+    ]
+  },
+  {
+    "id": "Q251683",
+    "name": "Ángel Di María",
+    "career": [
+      {
+        "team": "Club Atlético Rosario Central",
+        "years": "2005–2007",
+        "apps": 35,
+        "goals": 6,
+        "loan": false
+      },
+      {
+        "team": "S.L. Benfica",
+        "years": "2007–2010",
+        "apps": 76,
+        "goals": 7,
+        "loan": false
+      },
+      {
+        "team": "Real Madrid CF",
+        "years": "2010–2014",
+        "apps": 124,
+        "goals": 22,
+        "loan": false
+      },
+      {
+        "team": "Manchester United F.C.",
+        "years": "2014–2015",
+        "apps": 27,
+        "goals": 3,
+        "loan": false
+      },
+      {
+        "team": "Paris Saint-Germain FC",
+        "years": "2015–2022",
+        "apps": 197,
+        "goals": 56,
+        "loan": false
+      },
+      {
+        "team": "Juventus FC",
+        "years": "2022–2023",
+        "apps": 26,
+        "goals": 4,
+        "loan": false
+      },
+      {
+        "team": "S.L. Benfica",
+        "years": "2023–2025",
+        "apps": 53,
+        "goals": 17,
+        "loan": false
+      },
+      {
+        "team": "Club Atlético Rosario Central",
+        "years": "2025–",
+        "apps": 1,
+        "goals": 1,
+        "loan": false
+      }
+    ]
+  }
+]

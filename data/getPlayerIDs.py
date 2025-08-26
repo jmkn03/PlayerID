@@ -142,7 +142,7 @@ def save_player_json(player_name: str, wikidata_id: str, career: list):
 # Main
 # -------------------------------
 def main():
-    with open("players.txt", "r", encoding="utf-8") as f:
+    with open("player_names.txt", "r", encoding="utf-8") as f:
         players = [line.strip() for line in f if line.strip()]
 
     print(f"Loaded {len(players)} players from text file.")
