@@ -9,152 +9,98 @@ import {
   Animated,
   Easing,
 } from "react-native";
-import { useState, useEffect, useRef } from "react";
+import { useEffect, useRef, useCallback } from "react";
+import { useFocusEffect } from "@react-navigation/native";
 import { KeyboardAwareScrollView } from "react-native-keyboard-aware-scroll-view";
-import players from "../../assets/data/allPlayers.json";
+import { useGameStore } from "../../utils/store";
 
 const { width } = Dimensions.get("window");
 
 export default function QuizScreen() {
-  const [player, setPlayer] = useState<any>(null);
-  const [guess, setGuess] = useState("");
-  const [feedback, setFeedback] = useState<string | null>(null);
-  const [score, setScore] = useState(0);
-  const [question, setQuestion] = useState(1);
-  const [showSuggestions, setShowSuggestions] = useState(false);
-  const [filteredNames, setFilteredNames] = useState<string[]>([]);
-  const [gameOver, setGameOver] = useState(false);
+  // Zustand store
+  const {
+    player,
+    guess,
+    feedback,
+    score,
+    question,
+    gameOver,
+    showSuggestions,
+    filteredNames,
+    getRandomPlayer,
+    checkAnswer,
+    handleInputChange,
+    handleSuggestionPress,
+    restartGame,
+  } = useGameStore();
 
-  const allNames = players.map((p) => p.name);
-
-  const getRandomPlayer = () => {
-    const randomIndex = Math.floor(Math.random() * players.length);
-    setPlayer(players[randomIndex]);
-    setGuess("");
-    setFeedback(null);
-    setShowSuggestions(false);
-  };
-
-  const nextQuestion = () => {
-    if (question === 2) {
-      setGameOver(true);
-      return;
-    }
-
-    if (question < 2) {
-      setQuestion(question + 1);
-      getRandomPlayer();
-    } else {
-      setQuestion(1);
-      getRandomPlayer();
-    }
-  };
-
-  const checkAnswer = () => {
-    if (!player) return;
-
-    if (guess.trim().toLowerCase() === player.name.toLowerCase()) {
-      setFeedback("✅ Correct!");
-      setScore(score + 1);
-    } else {
-      setFeedback(`❌ Wrong! Answer: ${player.name}`);
-    }
-    setGuess("");
-    setFilteredNames([]);
-
-    // wait a bit, then go next
-    setTimeout(() => {
-      nextQuestion();
-    }, 800);
-  };
-
-  const handleInputChange = (text: string) => {
-    setGuess(text);
-    if (text.length > 0) {
-      const filtered = allNames.filter((name) =>
-        name.toLowerCase().includes(text.toLowerCase())
-      );
-      setFilteredNames(filtered.slice(0, 6));
-      setShowSuggestions(true);
-    } else {
-      setShowSuggestions(false);
-    }
-  };
-
-  const handleSuggestionPress = (name: string) => {
-    setGuess(name);
-    setShowSuggestions(false);
-  };
-
-  const restartGame = () => {
-    setScore(0);
-    setQuestion(1);
-    setGameOver(false);
-    getRandomPlayer();
-  };
+  // Animations
+  const fadeAnim = useRef(new Animated.Value(0)).current;
+  const scaleAnim = useRef(new Animated.Value(0.95)).current;
+  const careerAnim = useRef(new Animated.Value(0)).current;
+  const gameOverAnim = useRef(new Animated.Value(0)).current;
 
   useEffect(() => {
     getRandomPlayer();
   }, []);
 
-  const fadeAnim = useRef(new Animated.Value(0)).current;
-  const scaleAnim = useRef(new Animated.Value(0.95)).current;
+  useEffect(() => {
+    if (feedback) {
+      fadeAnim.setValue(0);
+      scaleAnim.setValue(0.95);
+
+      Animated.parallel([
+        Animated.timing(fadeAnim, {
+          toValue: 1,
+          duration: 300,
+          easing: Easing.out(Easing.ease),
+          useNativeDriver: true,
+        }),
+        Animated.spring(scaleAnim, {
+          toValue: 1,
+          friction: 6,
+          tension: 60,
+          useNativeDriver: true,
+        }),
+      ]).start();
+    }
+  }, [feedback, fadeAnim, scaleAnim]);
 
   useEffect(() => {
-  if (feedback) {
-    fadeAnim.setValue(0);
-    scaleAnim.setValue(0.95);
+    careerAnim.setValue(0);
+    Animated.timing(careerAnim, {
+      toValue: 1,
+      duration: 400,
+      easing: Easing.out(Easing.ease),
+      useNativeDriver: true,
+    }).start();
+  }, [player, careerAnim]);
 
-    Animated.parallel([
-      Animated.timing(fadeAnim, {
-        toValue: 1,
-        duration: 300,
-        easing: Easing.out(Easing.ease),
-        useNativeDriver: true,
-      }),
-      Animated.spring(scaleAnim, {
-        toValue: 1,
-        friction: 6,
-        tension: 60,
-        useNativeDriver: true,
-      }),
-    ]).start();
-  }
-}, [feedback]);
+  useEffect(() => {
+    if (gameOver) {
+      gameOverAnim.setValue(0);
+      Animated.parallel([
+        Animated.timing(gameOverAnim, {
+          toValue: 1,
+          duration: 600,
+          easing: Easing.out(Easing.exp),
+          useNativeDriver: true,
+        }),
+        Animated.spring(scaleAnim, {
+          toValue: 1,
+          friction: 5,
+          tension: 40,
+          useNativeDriver: true,
+        }),
+      ]).start();
+    }
+  }, [gameOver, gameOverAnim, scaleAnim]);
 
-const careerAnim = useRef(new Animated.Value(0)).current;
-
-useEffect(() => {
-  careerAnim.setValue(0);
-  Animated.timing(careerAnim, {
-    toValue: 1,
-    duration: 400,
-    easing: Easing.out(Easing.ease),
-    useNativeDriver: true,
-  }).start();
-}, [player]);
-
-const gameOverAnim = useRef(new Animated.Value(0)).current;
-
-useEffect(() => {
-  if (gameOver) {
-    gameOverAnim.setValue(0);
-    Animated.parallel([
-      Animated.timing(gameOverAnim, {
-        toValue: 1,
-        duration: 600,
-        easing: Easing.out(Easing.exp),
-        useNativeDriver: true,
-      }),
-      Animated.spring(scaleAnim, {
-        toValue: 1,
-        friction: 5,
-        tension: 40,
-        useNativeDriver: true,
-      }),
-    ]).start();
-  }
-}, [gameOver]);
+  useFocusEffect(
+    useCallback(() => {
+      restartGame();
+    }, [restartGame])
+  );
 
   if (gameOver) {
     return (
@@ -273,7 +219,7 @@ useEffect(() => {
             placeholderTextColor="#b2fefa"
             value={guess}
             onChangeText={handleInputChange}
-            onFocus={() => setShowSuggestions(true)}
+            onFocus={() => useGameStore.setState({ showSuggestions: true })}
           />
 
           {showSuggestions && filteredNames.length > 0 && (
@@ -338,10 +284,47 @@ const styles = StyleSheet.create({
     marginBottom: 8,
     marginTop: 10,
   },
-  score: {
-    fontSize: 18,
+  scoreContainer: {
+    flexDirection: "row",
+    alignItems: "center",
+    alignSelf: "center",
+    backgroundColor: "rgba(17, 25, 40, 0.7)",
+    borderRadius: 16,
+    paddingVertical: 8,
+    paddingHorizontal: 22,
+    marginBottom: 18,
+    marginTop: 8,
+    borderWidth: 1,
+    borderColor: "#11998e",
+    shadowColor: "#11998e",
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.10,
+    shadowRadius: 4,
+  },
+  scoreLabel: {
     color: "#b2fefa",
-    marginBottom: 16,
+    fontSize: 16,
+    fontWeight: "600",
+    marginHorizontal: 4,
+    letterSpacing: 0.5,
+  },
+  scoreValue: {
+    color: "#fff",
+    fontSize: 20,
+    fontWeight: "bold",
+    marginHorizontal: 2,
+  },
+  scoreDivider: {
+    color: "#b2fefa",
+    fontSize: 18,
+    fontWeight: "bold",
+    marginHorizontal: 2,
+  },
+  scoreTotal: {
+    color: "#b2fefa",
+    fontSize: 18,
+    fontWeight: "bold",
+    marginHorizontal: 2,
   },
   card: {
     marginTop: 10,
@@ -454,47 +437,5 @@ const styles = StyleSheet.create({
     textShadowColor: "#11998e",
     textShadowOffset: { width: 0, height: 2 },
     textShadowRadius: 4,
-  },
-scoreContainer: {
-    flexDirection: "row",
-    alignItems: "center",
-    alignSelf: "center",
-    backgroundColor: "rgba(17, 25, 40, 0.7)",
-    borderRadius: 16,
-    paddingVertical: 8,
-    paddingHorizontal: 22,
-    marginBottom: 18, 
-    marginTop: 8,
-    borderWidth: 1,
-    borderColor: "#11998e",
-    shadowColor: "#11998e",
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.10,
-    shadowRadius: 4,
-  },
-  scoreLabel: {
-    color: "#b2fefa",
-    fontSize: 16,
-    fontWeight: "600",
-    marginHorizontal: 4,
-    letterSpacing: 0.5,
-  },
-  scoreValue: {
-    color: "#fff",
-    fontSize: 20,
-    fontWeight: "bold",
-    marginHorizontal: 2,
-  },
-  scoreDivider: {
-    color: "#b2fefa",
-    fontSize: 18,
-    fontWeight: "bold",
-    marginHorizontal: 2,
-  },
-  scoreTotal: {
-    color: "#b2fefa",
-    fontSize: 18,
-    fontWeight: "bold",
-    marginHorizontal: 2,
   },
 });
