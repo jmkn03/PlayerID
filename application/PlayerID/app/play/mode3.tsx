@@ -1,16 +1,16 @@
 import {
   View,
   Text,
-  ScrollView,
   TextInput,
   StyleSheet,
   TouchableOpacity,
   Dimensions,
-  KeyboardAvoidingView,
-  Platform,
   FlatList,
+  Animated,
+  Easing,
 } from "react-native";
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
+import { KeyboardAwareScrollView } from "react-native-keyboard-aware-scroll-view";
 import players from "../../assets/data/allPlayers.json";
 
 const { width } = Dimensions.get("window");
@@ -20,90 +20,217 @@ export default function QuizScreen() {
   const [guess, setGuess] = useState("");
   const [feedback, setFeedback] = useState<string | null>(null);
   const [score, setScore] = useState(0);
-  const [round, setRound] = useState(0);
+  const [question, setQuestion] = useState(1);
+  const [showSuggestions, setShowSuggestions] = useState(false);
+  const [filteredNames, setFilteredNames] = useState<string[]>([]);
   const [gameOver, setGameOver] = useState(false);
-  const [suggestions, setSuggestions] = useState<any[]>([]);
+
+  const allNames = players.map((p) => p.name);
 
   const getRandomPlayer = () => {
     const randomIndex = Math.floor(Math.random() * players.length);
     setPlayer(players[randomIndex]);
     setGuess("");
     setFeedback(null);
-    setSuggestions([]);
+    setShowSuggestions(false);
   };
 
-  const startGame = () => {
-    setScore(0);
-    setRound(0);
-    setGameOver(false);
-    getRandomPlayer();
+  const nextQuestion = () => {
+    if (question === 2) {
+      setGameOver(true);
+      return;
+    }
+
+    if (question < 2) {
+      setQuestion(question + 1);
+      getRandomPlayer();
+    } else {
+      setQuestion(1);
+      getRandomPlayer();
+    }
   };
 
   const checkAnswer = () => {
     if (!player) return;
+
     if (guess.trim().toLowerCase() === player.name.toLowerCase()) {
       setFeedback("✅ Correct!");
-      setScore((prev) => prev + 1);
+      setScore(score + 1);
     } else {
       setFeedback(`❌ Wrong! Answer: ${player.name}`);
     }
+    setGuess("");
+    setFilteredNames([]);
 
+    // wait a bit, then go next
     setTimeout(() => {
-      const nextRound = round + 1;
-      if (nextRound >= 2) {
-        setGameOver(true);
-        setPlayer(null);
-      } else {
-        setRound(nextRound);
-        getRandomPlayer();
-      }
-    }, 1500);
+      nextQuestion();
+    }, 800);
   };
 
-  const handleGuessChange = (text: string) => {
+  const handleInputChange = (text: string) => {
     setGuess(text);
     if (text.length > 0) {
-      const filtered = players.filter((p) =>
-        p.name.toLowerCase().includes(text.toLowerCase())
+      const filtered = allNames.filter((name) =>
+        name.toLowerCase().includes(text.toLowerCase())
       );
-      setSuggestions(filtered.slice(0, 5));
+      setFilteredNames(filtered.slice(0, 6));
+      setShowSuggestions(true);
     } else {
-      setSuggestions([]);
+      setShowSuggestions(false);
     }
   };
 
-  const selectSuggestion = (name: string) => {
+  const handleSuggestionPress = (name: string) => {
     setGuess(name);
-    setSuggestions([]);
+    setShowSuggestions(false);
   };
 
+  const restartGame = () => {
+    setScore(0);
+    setQuestion(1);
+    setGameOver(false);
+    getRandomPlayer();
+  };
+
+  useEffect(() => {
+    getRandomPlayer();
+  }, []);
+
+  const fadeAnim = useRef(new Animated.Value(0)).current;
+  const scaleAnim = useRef(new Animated.Value(0.95)).current;
+
+  useEffect(() => {
+  if (feedback) {
+    fadeAnim.setValue(0);
+    scaleAnim.setValue(0.95);
+
+    Animated.parallel([
+      Animated.timing(fadeAnim, {
+        toValue: 1,
+        duration: 300,
+        easing: Easing.out(Easing.ease),
+        useNativeDriver: true,
+      }),
+      Animated.spring(scaleAnim, {
+        toValue: 1,
+        friction: 6,
+        tension: 60,
+        useNativeDriver: true,
+      }),
+    ]).start();
+  }
+}, [feedback]);
+
+const careerAnim = useRef(new Animated.Value(0)).current;
+
+useEffect(() => {
+  careerAnim.setValue(0);
+  Animated.timing(careerAnim, {
+    toValue: 1,
+    duration: 400,
+    easing: Easing.out(Easing.ease),
+    useNativeDriver: true,
+  }).start();
+}, [player]);
+
+const gameOverAnim = useRef(new Animated.Value(0)).current;
+
+useEffect(() => {
+  if (gameOver) {
+    gameOverAnim.setValue(0);
+    Animated.parallel([
+      Animated.timing(gameOverAnim, {
+        toValue: 1,
+        duration: 600,
+        easing: Easing.out(Easing.exp),
+        useNativeDriver: true,
+      }),
+      Animated.spring(scaleAnim, {
+        toValue: 1,
+        friction: 5,
+        tension: 40,
+        useNativeDriver: true,
+      }),
+    ]).start();
+  }
+}, [gameOver]);
+
+  if (gameOver) {
+    return (
+      <Animated.View
+        style={[
+          styles.container,
+          {
+            opacity: gameOverAnim,
+            transform: [
+              {
+                scale: gameOverAnim.interpolate({
+                  inputRange: [0, 1],
+                  outputRange: [0.6, 1],
+                }),
+              },
+            ],
+          },
+        ]}
+      >
+        <Text style={styles.title}>Game Over</Text>
+        <View style={styles.scoreContainer}>
+          <Text style={styles.scoreLabel}>Final Score</Text>
+          <Text style={styles.scoreValue}>{score}</Text>
+          <Text style={styles.scoreDivider}>/</Text>
+          <Text style={styles.scoreTotal}>2</Text>
+        </View>
+        <TouchableOpacity
+          style={styles.submitButton}
+          onPress={restartGame}
+          activeOpacity={0.9}
+        >
+          <Text style={styles.submitButtonText}>Play Again</Text>
+        </TouchableOpacity>
+      </Animated.View>
+    );
+  }
+
   return (
-    <KeyboardAvoidingView
-      style={{ flex: 1 }}
-      behavior={Platform.OS === "ios" ? "padding" : undefined}
-      keyboardVerticalOffset={100} // adjust depending on your header height
+    <KeyboardAwareScrollView
+      contentContainerStyle={styles.container}
+      enableOnAndroid
+      extraScrollHeight={20}
     >
-      <ScrollView contentContainerStyle={styles.container} keyboardShouldPersistTaps="handled">
-        <Text style={styles.title}>Guess the Player</Text>
+      <Text style={styles.title}>Guess the Player</Text>
+      <View style={styles.scoreContainer}>
+        <Text style={styles.scoreLabel}>Question</Text>
+        <Text style={styles.scoreValue}>{question}</Text>
+        <Text style={styles.scoreDivider}>/</Text>
+        <Text style={styles.scoreTotal}>2</Text>
+        <Text style={styles.scoreLabel}> | Score</Text>
+        <Text style={styles.scoreValue}>{score}</Text>
+      </View>
 
-        {!player && !gameOver && (
-          <TouchableOpacity
-            style={styles.kickOffButton}
-            onPress={startGame}
-            activeOpacity={0.9}
+      {player && (
+        <View style={styles.card}>
+          <Text style={styles.cardTitle}>Career Path</Text>
+          <View style={styles.careerTableHeader}>
+            <Text style={[styles.headerCell, { flex: 1.2 }]}>Years</Text>
+            <Text style={[styles.headerCell, { flex: 2 }]}>Team</Text>
+            <Text style={[styles.headerCell, { flex: 1 }]}>Apps</Text>
+            <Text style={[styles.headerCell, { flex: 1 }]}>Goals</Text>
+          </View>
+
+          <Animated.View
+            style={{
+              opacity: careerAnim,
+              transform: [
+                {
+                  translateY: careerAnim.interpolate({
+                    inputRange: [0, 1],
+                    outputRange: [20, 0],
+                  }),
+                },
+              ],
+            }}
           >
-            <Text style={styles.kickOffButtonText}>Start Round</Text>
-            <Text style={styles.kickOffButtonIcon}>⚽</Text>
-          </TouchableOpacity>
-        )}
-
-        {player && (
-          <View style={styles.card}>
-            <Text style={styles.cardTitle}>Career Path</Text>
-            <View style={styles.careerTableHeader}>
-              <Text style={[styles.headerCell, { flex: 1.2 }]}>Years</Text>
-              <Text style={[styles.headerCell, { flex: 2 }]}>Team</Text>
-            </View>
             <View style={{ marginBottom: 10 }}>
               {player.career.length === 0 ? (
                 <Text style={styles.noData}>No career data available</Text>
@@ -121,85 +248,82 @@ export default function QuizScreen() {
                       },
                     ]}
                   >
-                    <Text
-                      style={[styles.cell, { flex: 1.2, color: "#b2fefa" }]}
-                    >
+                    <Text style={[styles.cell, { flex: 1.2, color: "#b2fefa" }]}>
                       {step.years || "?"}
                     </Text>
                     <Text style={[styles.cell, { flex: 2 }]}>
                       {step.team}
                       {step.loan ? " (loan)" : ""}
                     </Text>
+                    <Text style={[styles.cell, { flex: 1, textAlign: "center" }]}>
+                      {step.apps ?? "-"}
+                    </Text>
+                    <Text style={[styles.cell, { flex: 1, textAlign: "center" }]}>
+                      {step.goals ?? "-"}
+                    </Text>
                   </View>
                 ))
               )}
             </View>
+          </Animated.View>
 
-            <View style={{ width: "100%" }}>
-              <TextInput
-                style={styles.input}
-                placeholder="Enter player name..."
-                placeholderTextColor="#b2fefa"
-                value={guess}
-                onChangeText={handleGuessChange}
-              />
+          <TextInput
+            style={styles.input}
+            placeholder="Enter player name..."
+            placeholderTextColor="#b2fefa"
+            value={guess}
+            onChangeText={handleInputChange}
+            onFocus={() => setShowSuggestions(true)}
+          />
 
-              {suggestions.length > 0 && (
-                <View style={styles.suggestionListWrapper}>
-                  <FlatList
-                    data={suggestions}
-                    keyExtractor={(item) => item.name}
-                    renderItem={({ item }) => (
-                      <TouchableOpacity
-                        onPress={() => selectSuggestion(item.name)}
-                        style={styles.suggestionItem}
-                      >
-                        <Text style={styles.suggestionText}>{item.name}</Text>
-                      </TouchableOpacity>
-                    )}
-                    keyboardShouldPersistTaps="handled"
-                  />
-                </View>
+          {showSuggestions && filteredNames.length > 0 && (
+            <FlatList
+              data={filteredNames}
+              keyExtractor={(item, index) => index.toString()}
+              style={styles.suggestionsList}
+              renderItem={({ item }) => (
+                <TouchableOpacity
+                  style={styles.suggestionItem}
+                  onPress={() => handleSuggestionPress(item)}
+                >
+                  <Text style={styles.suggestionText}>{item}</Text>
+                </TouchableOpacity>
               )}
-            </View>
+            />
+          )}
 
-            <TouchableOpacity
-              style={styles.submitButton}
-              onPress={checkAnswer}
-              activeOpacity={0.9}
+          <TouchableOpacity
+            style={styles.submitButton}
+            onPress={checkAnswer}
+            activeOpacity={0.9}
+          >
+            <Text style={styles.submitButtonText}>Submit</Text>
+          </TouchableOpacity>
+
+          {feedback && (
+            <Animated.Text
+              style={[
+                styles.feedback,
+                {
+                  opacity: fadeAnim,
+                  transform: [{ scale: scaleAnim }],
+                },
+              ]}
             >
-              <Text style={styles.submitButtonText}>Submit</Text>
-            </TouchableOpacity>
-
-            {feedback && <Text style={styles.feedback}>{feedback}</Text>}
-          </View>
-        )}
-
-        {gameOver && (
-          <View style={styles.card}>
-            <Text style={styles.cardTitle}>Round Over</Text>
-            <Text style={styles.feedback}>Your Score: {score} / 2</Text>
-            <TouchableOpacity
-              style={styles.kickOffButton}
-              onPress={startGame}
-              activeOpacity={0.9}
-            >
-              <Text style={styles.kickOffButtonText}>Play Again</Text>
-              <Text style={styles.kickOffButtonIcon}>🔁</Text>
-            </TouchableOpacity>
-          </View>
-        )}
-      </ScrollView>
-    </KeyboardAvoidingView>
+              {feedback}
+            </Animated.Text>
+          )}
+        </View>
+      )}
+    </KeyboardAwareScrollView>
   );
 }
 
 const styles = StyleSheet.create({
-  // same styles as before
   container: {
     flexGrow: 1,
     alignItems: "center",
-    justifyContent: "flex-start",
+    justifyContent: "center",
     padding: 20,
     backgroundColor: "transparent",
   },
@@ -211,39 +335,16 @@ const styles = StyleSheet.create({
     textShadowColor: "#11998e",
     textShadowOffset: { width: 0, height: 3 },
     textShadowRadius: 8,
-    marginBottom: 18,
+    marginBottom: 8,
     marginTop: 10,
   },
-  kickOffButton: {
-    flexDirection: "row",
-    alignItems: "center",
-    alignSelf: "center",
-    backgroundColor: "#22C55E",
-    borderRadius: 32,
-    paddingVertical: 14,
-    paddingHorizontal: 36,
-    marginVertical: 10,
-    elevation: 4,
-    shadowColor: "#22C55E",
-    shadowOffset: { width: 0, height: 6 },
-    shadowOpacity: 0.25,
-    shadowRadius: 12,
-  },
-  kickOffButtonText: {
-    color: "#fff",
-    fontSize: 20,
-    fontWeight: "bold",
-    marginRight: 12,
-    letterSpacing: 1,
-    textShadowColor: "#11998e",
-    textShadowOffset: { width: 0, height: 2 },
-    textShadowRadius: 6,
-  },
-  kickOffButtonIcon: {
-    fontSize: 28,
+  score: {
+    fontSize: 18,
+    color: "#b2fefa",
+    marginBottom: 16,
   },
   card: {
-    marginTop: 20,
+    marginTop: 10,
     width: "100%",
     backgroundColor: "rgba(22,34,42,0.85)",
     borderRadius: 18,
@@ -305,25 +406,20 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: "#fff",
     backgroundColor: "rgba(17, 25, 40, 0.7)",
-    marginBottom: 4,
+    marginBottom: 10,
   },
-  suggestionList: {
+  suggestionsList: {
     maxHeight: 150,
-    backgroundColor: "rgba(17,25,40,0.9)",
+    marginBottom: 10,
     borderRadius: 8,
-    marginBottom: 8,
+    backgroundColor: "rgba(17,25,40,0.9)",
+    borderWidth: 1,
+    borderColor: "#11998e",
   },
-  suggestionListWrapper: {
-  maxHeight: 150,
-  backgroundColor: "rgba(17,25,40,0.9)",
-  borderRadius: 8,
-  marginTop: 4,
-  zIndex: 10,
-},
   suggestionItem: {
     padding: 10,
     borderBottomWidth: 1,
-    borderBottomColor: "#11998e",
+    borderBottomColor: "rgba(255,255,255,0.1)",
   },
   suggestionText: {
     color: "#fff",
@@ -358,5 +454,47 @@ const styles = StyleSheet.create({
     textShadowColor: "#11998e",
     textShadowOffset: { width: 0, height: 2 },
     textShadowRadius: 4,
+  },
+scoreContainer: {
+    flexDirection: "row",
+    alignItems: "center",
+    alignSelf: "center",
+    backgroundColor: "rgba(17, 25, 40, 0.7)",
+    borderRadius: 16,
+    paddingVertical: 8,
+    paddingHorizontal: 22,
+    marginBottom: 18, 
+    marginTop: 8,
+    borderWidth: 1,
+    borderColor: "#11998e",
+    shadowColor: "#11998e",
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.10,
+    shadowRadius: 4,
+  },
+  scoreLabel: {
+    color: "#b2fefa",
+    fontSize: 16,
+    fontWeight: "600",
+    marginHorizontal: 4,
+    letterSpacing: 0.5,
+  },
+  scoreValue: {
+    color: "#fff",
+    fontSize: 20,
+    fontWeight: "bold",
+    marginHorizontal: 2,
+  },
+  scoreDivider: {
+    color: "#b2fefa",
+    fontSize: 18,
+    fontWeight: "bold",
+    marginHorizontal: 2,
+  },
+  scoreTotal: {
+    color: "#b2fefa",
+    fontSize: 18,
+    fontWeight: "bold",
+    marginHorizontal: 2,
   },
 });
