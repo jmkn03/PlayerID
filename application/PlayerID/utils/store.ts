@@ -67,9 +67,6 @@ export const useGameStore = create<GameState>((set, get) => ({
       set({ feedback: `❌ Wrong! Answer: ${player.name}` });
     }
     set({ guess: "", filteredNames: [] });
-    setTimeout(() => {
-      nextQuestion();
-    }, 800);
   },
 
   handleInputChange: (text: string) => {

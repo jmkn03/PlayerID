@@ -63,8 +63,14 @@ export default function QuizScreen() {
           useNativeDriver: true,
         }),
       ]).start();
+
+    const timer = setTimeout(() => {
+      useGameStore.getState().nextQuestion();
+    }, 800);
+
+    return () => clearTimeout(timer);
     }
-  }, [feedback, fadeAnim, scaleAnim]);
+  }, [feedback]);
 
   useEffect(() => {
     careerAnim.setValue(0);
