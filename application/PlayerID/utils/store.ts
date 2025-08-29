@@ -9,6 +9,7 @@ interface GameState {
   feedback: string | null;
   score: number;
   question: number;
+  totalQuestions: number;
   gameOver: boolean;
   showSuggestions: boolean;
   filteredNames: string[];
@@ -27,6 +28,7 @@ export const useGameStore = create<GameState>((set, get) => ({
   feedback: null,
   score: 0,
   question: 1,
+  totalQuestions: 2,
   gameOver: false,
   showSuggestions: false,
   filteredNames: [],
@@ -44,12 +46,12 @@ export const useGameStore = create<GameState>((set, get) => ({
   },
 
   nextQuestion: () => {
-    const { question, getRandomPlayer } = get();
-    if (question === 2) {
+    const { question, totalQuestions, getRandomPlayer } = get();
+    if (question === totalQuestions) {
       set({ gameOver: true });
       return;
     }
-    if (question < 2) {
+    if (question < totalQuestions) {
       set({ question: question + 1 });
       getRandomPlayer();
     } else {
