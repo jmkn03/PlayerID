@@ -142,7 +142,7 @@ export const useGameStore = create<GameState>((set, get) => ({
       const { mode2HighScore } = get();
       if (newScore > mode2HighScore) {
         set({ mode2HighScore: newScore });
-        await AsyncStorage.setItem("mode2HighScore", String(newScore));
+        await AsyncStorage.setItem("SurvivalHighScore", String(newScore));
       }
       set({ guess: "", filteredNames: [] });
       setTimeout(() => get().getRandomPlayer(), 800); // <-- Add delay here!
@@ -156,7 +156,7 @@ export const useGameStore = create<GameState>((set, get) => ({
 // Load high score on app start
 (async () => {
   try {
-    const saved = await AsyncStorage.getItem("mode2HighScore");
+    const saved = await AsyncStorage.getItem("SurvivalHighScore");
     if (saved) {
       useGameStore.setState({ mode2HighScore: parseInt(saved, 10) });
     }
