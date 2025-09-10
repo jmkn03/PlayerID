@@ -13,10 +13,10 @@ import { useEffect, useRef, useCallback } from "react";
 import { useFocusEffect } from "@react-navigation/native";
 import { KeyboardAwareScrollView } from "react-native-keyboard-aware-scroll-view";
 import { useGameStore } from "../../utils/store";
-import ScoreHeader from "../../components/ScoreHeader";
+import ScoreHeaderClassic from "../../components/ScoreHeaderClassic";
 import CareerPath from "../../components/CareerPath";
 import SuggestionsList from "../../components/SuggestionsList";
-import GameOverScreen from "../../components/GameOver";
+import GameOverScreen from "../../components/GameOverClassic";
 
 const { width } = Dimensions.get("window");
 
@@ -48,64 +48,6 @@ export default function QuizScreen() {
     getRandomPlayer();
   }, []);
 
-  useEffect(() => {
-    if (feedback) {
-      fadeAnim.setValue(0);
-      scaleAnim.setValue(0.95);
-
-      Animated.parallel([
-        Animated.timing(fadeAnim, {
-          toValue: 1,
-          duration: 300,
-          easing: Easing.out(Easing.ease),
-          useNativeDriver: true,
-        }),
-        Animated.spring(scaleAnim, {
-          toValue: 1,
-          friction: 6,
-          tension: 60,
-          useNativeDriver: true,
-        }),
-      ]).start();
-
-    const timer = setTimeout(() => {
-      useGameStore.getState().nextQuestion();
-    }, 800);
-
-    return () => clearTimeout(timer);
-    }
-  }, [feedback]);
-
-  useEffect(() => {
-    careerAnim.setValue(0);
-    Animated.timing(careerAnim, {
-      toValue: 1,
-      duration: 400,
-      easing: Easing.out(Easing.ease),
-      useNativeDriver: true,
-    }).start();
-  }, [player, careerAnim]);
-
-  useEffect(() => {
-    if (gameOver) {
-      gameOverAnim.setValue(0);
-      Animated.parallel([
-        Animated.timing(gameOverAnim, {
-          toValue: 1,
-          duration: 600,
-          easing: Easing.out(Easing.exp),
-          useNativeDriver: true,
-        }),
-        Animated.spring(scaleAnim, {
-          toValue: 1,
-          friction: 5,
-          tension: 40,
-          useNativeDriver: true,
-        }),
-      ]).start();
-    }
-  }, [gameOver, gameOverAnim, scaleAnim]);
-
   useFocusEffect(
     useCallback(() => {
       restartGame();
@@ -117,7 +59,7 @@ export default function QuizScreen() {
   return (
     <KeyboardAwareScrollView contentContainerStyle={styles.container} enableOnAndroid keyboardShouldPersistTaps="handled">
       <Text style={styles.title}>Guess the Player</Text>
-      <ScoreHeader />
+      <ScoreHeaderClassic/>
 
       {player && (
         <>

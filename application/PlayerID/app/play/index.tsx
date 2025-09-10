@@ -9,7 +9,7 @@ export default function PlayMenu() {
       <Text style={styles.title}>🎮 Choose Game Mode</Text>
 
       <TouchableOpacity style={styles.button} onPress={() => router.push("/play/mode1")}>
-        <Text style={styles.buttonText}>🧩 Classic Mode</Text>
+        <Text style={styles.buttonText}>❤️ Survival Mode</Text>
       </TouchableOpacity>
 
       <TouchableOpacity style={styles.button} onPress={() => router.push("/play/mode2")}>
@@ -17,7 +17,7 @@ export default function PlayMenu() {
       </TouchableOpacity>
 
       <TouchableOpacity style={styles.button} onPress={() => router.push("/play/mode3")}>
-        <Text style={styles.buttonText}>❤️ Survival Mode</Text>
+        <Text style={styles.buttonText}>🧩 Classic Mode</Text>
       </TouchableOpacity>
     </View>
   );
