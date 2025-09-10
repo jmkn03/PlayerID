@@ -1,38 +1,63 @@
-import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
+import { View, Text, StyleSheet, SafeAreaView } from "react-native";
+import { LinearGradient } from "expo-linear-gradient";
 
 export default function AccountScreen() {
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>👤 Account</Text>
-      <Text style={styles.subtitle}>Sign in to save your progress</Text>
-
-      <TouchableOpacity style={styles.button}>
-        <Text style={styles.buttonText}>🔑 Log In</Text>
-      </TouchableOpacity>
-
-      <TouchableOpacity style={styles.button}>
-        <Text style={styles.buttonText}>📝 Sign Up</Text>
-      </TouchableOpacity>
-
-      <TouchableOpacity style={[styles.button, { backgroundColor: "#6B7280" }]}>
-        <Text style={styles.buttonText}>🎮 Continue as Guest</Text>
-      </TouchableOpacity>
-    </View>
+    <LinearGradient
+      colors={["#0f2027", "#203a43", "#2c5364"]}
+      start={{ x: 0, y: 0 }}
+      end={{ x: 1, y: 1 }}
+      style={styles.gradient}
+    >
+      <SafeAreaView style={styles.safeArea}>
+        <View style={styles.card}>
+          <Text style={styles.title}>Your Account</Text>
+          <Text style={styles.subtitle}>Manage your profile and stats</Text>
+          {/* Add account details here */}
+        </View>
+      </SafeAreaView>
+    </LinearGradient>
   );
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, justifyContent: "center", alignItems: "center", backgroundColor: "#FFF", padding: 20 },
-  title: { fontSize: 28, fontWeight: "bold", marginBottom: 10, color: "#111" },
-  subtitle: { fontSize: 16, color: "#374151", marginBottom: 30 },
-  button: {
-    backgroundColor: "#2563EB",
-    paddingVertical: 14,
-    paddingHorizontal: 40,
-    borderRadius: 12,
-    marginVertical: 8,
-    width: "80%",
+  gradient: { flex: 1 },
+  safeArea: {
+    flex: 1,
+    justifyContent: "center",
     alignItems: "center",
+    paddingBottom: 18,
   },
-  buttonText: { color: "#fff", fontSize: 18, fontWeight: "600" },
+  card: {
+    backgroundColor: "rgba(22,34,42,0.85)",
+    borderRadius: 20,
+    padding: 24,
+    marginVertical: 10,
+    shadowColor: "#11998e",
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.2,
+    shadowRadius: 10,
+    alignSelf: "center",
+    minWidth: 280,
+    maxWidth: 400,
+  },
+  title: {
+    fontSize: 32,
+    fontWeight: "bold",
+    color: "#fff",
+    letterSpacing: 2,
+    textShadowColor: "#11998e",
+    textShadowOffset: { width: 0, height: 3 },
+    textShadowRadius: 10,
+    marginBottom: 12,
+    textAlign: "center",
+  },
+  subtitle: {
+    fontSize: 18,
+    color: "#b2fefa",
+    fontWeight: "600",
+    letterSpacing: 1,
+    marginBottom: 8,
+    textAlign: "center",
+  },
 });
