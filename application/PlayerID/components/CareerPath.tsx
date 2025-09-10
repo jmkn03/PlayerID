@@ -1,26 +1,82 @@
-import { View, Text, StyleSheet } from "react-native";
+import { View, Text, StyleSheet, Animated, Easing } from "react-native";
+import { useEffect, useRef } from "react";
 import { useGameStore } from "../utils/store";
 
 export default function CareerPath() {
   const { player } = useGameStore();
+  const anim = useRef(new Animated.Value(0)).current;
 
-  if (!player || !player.career || player.career.length === 0) {
-    return <Text style={styles.noData}>No career data available</Text>;
-  }
+  useEffect(() => {
+    anim.setValue(0);
+    Animated.timing(anim, {
+      toValue: 1,
+      duration: 400,
+      easing: Easing.out(Easing.ease),
+      useNativeDriver: true,
+    }).start();
+  }, [player?.id]);
+
+  if (!player) return null;
 
   return (
     <View style={styles.card}>
       <Text style={styles.cardTitle}>Career Path</Text>
+
       <View style={styles.careerTableHeader}>
+        <Text style={[styles.headerCell, { flex: 1.2 }]}>Years</Text>
         <Text style={[styles.headerCell, { flex: 2 }]}>Team</Text>
-        <Text style={[styles.headerCell, { flex: 1 }]}>Years</Text>
+        <Text style={[styles.headerCell, { flex: 1 }]}>Apps</Text>
+        <Text style={[styles.headerCell, { flex: 1 }]}>Goals</Text>
       </View>
-      {player.career.map((entry, index) => (
-        <View key={index} style={styles.careerRow}>
-          <Text style={[styles.cell, { flex: 2 }]}>{entry.team}</Text>
-          <Text style={[styles.cell, { flex: 1 }]}>{entry.years}</Text>
+
+      <Animated.View
+        style={{
+          opacity: anim,
+          transform: [
+            {
+              translateY: anim.interpolate({
+                inputRange: [0, 1],
+                outputRange: [20, 0],
+              }),
+            },
+          ],
+        }}
+      >
+        <View style={{ marginBottom: 10 }}>
+          {player.career?.length === 0 ? (
+            <Text style={styles.noData}>No career data available</Text>
+          ) : (
+            player.career?.map((step: any, index: number) => (
+              <View
+                key={index}
+                style={[
+                  styles.careerRow,
+                  {
+                    backgroundColor:
+                      index % 2 === 0
+                        ? "rgba(255,255,255,0.08)"
+                        : "rgba(255,255,255,0.03)",
+                  },
+                ]}
+              >
+                <Text style={[styles.cell, { flex: 1.2, color: "#b2fefa" }]}>
+                  {step.years || "?"}
+                </Text>
+                <Text style={[styles.cell, { flex: 2 }]}>
+                  {step.team}
+                  {step.loan ? " (loan)" : ""}
+                </Text>
+                <Text style={[styles.cell, { flex: 1, textAlign: "center" }]}>
+                  {step.apps ?? "-"}
+                </Text>
+                <Text style={[styles.cell, { flex: 1, textAlign: "center" }]}>
+                  {step.goals ?? "-"}
+                </Text>
+              </View>
+            ))
+          )}
         </View>
-      ))}
+      </Animated.View>
     </View>
   );
 }
