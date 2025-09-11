@@ -43,6 +43,17 @@
             "apps": 39,
             "goals": 1,
             "loan": false
+        },
+        {
+            "team": "Sevilla FC",
+            "years": "2025–",
+            "apps": 0,
+            "goals": 0,
+            "loan": false
         }
-    ]
+    ],
+    "difficulty": {
+        "score": 65,
+        "level": "Medium"
+    }
 }

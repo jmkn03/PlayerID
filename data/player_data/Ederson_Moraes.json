@@ -32,10 +32,21 @@
         },
         {
             "team": "Manchester City F.C.",
-            "years": "2017–",
-            "apps": 234,
+            "years": "2017–2025",
+            "apps": 276,
+            "goals": 0,
+            "loan": false
+        },
+        {
+            "team": "Fenerbahçe Istanbul",
+            "years": "2025–",
+            "apps": 0,
             "goals": 0,
             "loan": false
         }
-    ]
+    ],
+    "difficulty": {
+        "score": 30,
+        "level": "Hard"
+    }
 }

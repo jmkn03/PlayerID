@@ -32,10 +32,21 @@
         },
         {
             "team": "Chelsea F.C.",
-            "years": "2024–",
+            "years": "2024–2025",
             "apps": 31,
             "goals": 3,
             "loan": true
+        },
+        {
+            "team": "Aston Villa F.C.",
+            "years": "2025–",
+            "apps": 0,
+            "goals": 0,
+            "loan": true
         }
-    ]
+    ],
+    "difficulty": {
+        "score": 50,
+        "level": "Medium"
+    }
 }

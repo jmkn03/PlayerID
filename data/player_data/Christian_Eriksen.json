@@ -57,6 +57,17 @@
             "apps": 73,
             "goals": 3,
             "loan": false
+        },
+        {
+            "team": "VfL Wolfsburg",
+            "years": "2025–",
+            "apps": null,
+            "goals": null,
+            "loan": false
         }
-    ]
+    ],
+    "difficulty": {
+        "score": 45,
+        "level": "Medium"
+    }
 }

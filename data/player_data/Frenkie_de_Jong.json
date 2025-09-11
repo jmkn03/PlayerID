@@ -10,7 +10,7 @@
             "loan": false
         },
         {
-            "team": "Jong Ajax",
+            "team": "jong PSV",
             "years": "2015–2016",
             "apps": 46,
             "goals": 8,
@@ -30,5 +30,9 @@
             "goals": null,
             "loan": false
         }
-    ]
+    ],
+    "difficulty": {
+        "score": 90,
+        "level": "Easy"
+    }
 }

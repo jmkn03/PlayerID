@@ -47,9 +47,13 @@
         {
             "team": "Inter Miami CF",
             "years": "2023–",
-            "apps": 43,
-            "goals": 39,
+            "apps": 44,
+            "goals": 40,
             "loan": false
         }
-    ]
+    ],
+    "difficulty": {
+        "score": 60,
+        "level": "Medium"
+    }
 }

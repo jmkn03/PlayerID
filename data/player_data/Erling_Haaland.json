@@ -33,9 +33,13 @@
         {
             "team": "Manchester City F.C.",
             "years": "2022–",
-            "apps": 97,
-            "goals": 85,
+            "apps": 100,
+            "goals": 88,
             "loan": false
         }
-    ]
+    ],
+    "difficulty": {
+        "score": 65,
+        "level": "Medium"
+    }
 }

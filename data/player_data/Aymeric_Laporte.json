@@ -3,6 +3,27 @@
     "name": "Aymeric Laporte",
     "career": [
         {
+            "team": "SU Agen Football",
+            "years": "2000–2009",
+            "apps": null,
+            "goals": null,
+            "loan": false
+        },
+        {
+            "team": "Aviron Bayonnais FC",
+            "years": "2009–2010",
+            "apps": null,
+            "goals": null,
+            "loan": false
+        },
+        {
+            "team": "Athletic Club",
+            "years": "2010–2011",
+            "apps": null,
+            "goals": null,
+            "loan": false
+        },
+        {
             "team": "CD Baskonia",
             "years": "2011–2012",
             "apps": 33,
@@ -19,15 +40,15 @@
         {
             "team": "Athletic Club",
             "years": "2012–2018",
-            "apps": 161,
-            "goals": 7,
+            "apps": 222,
+            "goals": 10,
             "loan": false
         },
         {
             "team": "Manchester City F.C.",
             "years": "2018–2023",
-            "apps": 121,
-            "goals": 8,
+            "apps": 181,
+            "goals": 12,
             "loan": false
         },
         {
@@ -37,5 +58,9 @@
             "goals": 9,
             "loan": false
         }
-    ]
+    ],
+    "difficulty": {
+        "score": 30,
+        "level": "Hard"
+    }
 }

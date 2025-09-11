@@ -44,5 +44,9 @@
             "goals": 10,
             "loan": true
         }
-    ]
+    ],
+    "difficulty": {
+        "score": 20,
+        "level": "Hard"
+    }
 }

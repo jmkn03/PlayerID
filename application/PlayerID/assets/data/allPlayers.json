@@ -24,12 +24,20 @@
         "goals": 1,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 55,
+      "level": "Medium"
+    }
   },
   {
     "id": "Q4758406",
     "name": "Andrew Robertson",
-    "career": []
+    "career": [],
+    "difficulty": {
+      "score": 55,
+      "level": "Medium"
+    }
   },
   {
     "id": "Q66743376",
@@ -56,7 +64,11 @@
         "goals": 0,
         "loan": true
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 65,
+      "level": "Medium"
+    }
   },
   {
     "id": "Q455462",
@@ -104,7 +116,11 @@
         "goals": 37,
         "loan": true
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 75,
+      "level": "Easy"
+    }
   },
   {
     "id": "Q46951844",
@@ -131,12 +147,37 @@
         "goals": 3,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 55,
+      "level": "Medium"
+    }
   },
   {
     "id": "Q3855340",
     "name": "Aymeric Laporte",
     "career": [
+      {
+        "team": "SU Agen Football",
+        "years": "2000–2009",
+        "apps": null,
+        "goals": null,
+        "loan": false
+      },
+      {
+        "team": "Aviron Bayonnais FC",
+        "years": "2009–2010",
+        "apps": null,
+        "goals": null,
+        "loan": false
+      },
+      {
+        "team": "Athletic Club",
+        "years": "2010–2011",
+        "apps": null,
+        "goals": null,
+        "loan": false
+      },
       {
         "team": "CD Baskonia",
         "years": "2011–2012",
@@ -154,15 +195,15 @@
       {
         "team": "Athletic Club",
         "years": "2012–2018",
-        "apps": 161,
-        "goals": 7,
+        "apps": 222,
+        "goals": 10,
         "loan": false
       },
       {
         "team": "Manchester City F.C.",
         "years": "2018–2023",
-        "apps": 121,
-        "goals": 8,
+        "apps": 181,
+        "goals": 12,
         "loan": false
       },
       {
@@ -172,7 +213,11 @@
         "goals": 9,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 30,
+      "level": "Hard"
+    }
   },
   {
     "id": "Q21621029",
@@ -194,7 +239,7 @@
       },
       {
         "team": "Chelsea F.C.",
-        "years": "2020–",
+        "years": "2020–2025",
         "apps": 70,
         "goals": 8,
         "loan": false
@@ -205,13 +250,28 @@
         "apps": 8,
         "goals": 1,
         "loan": true
+      },
+      {
+        "team": "RC Strasbourg Alsace",
+        "years": "2025–",
+        "apps": 0,
+        "goals": 0,
+        "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 30,
+      "level": "Hard"
+    }
   },
   {
     "id": "Q106075808",
     "name": "Bernardo Silva",
-    "career": []
+    "career": [],
+    "difficulty": {
+      "score": 55,
+      "level": "Medium"
+    }
   },
   {
     "id": "Q4979316",
@@ -252,7 +312,11 @@
         "goals": 62,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 35,
+      "level": "Hard"
+    }
   },
   {
     "id": "Q59306386",
@@ -265,7 +329,11 @@
         "goals": 53,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 55,
+      "level": "Medium"
+    }
   },
   {
     "id": "Q616664",
@@ -313,7 +381,11 @@
         "goals": 6,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 25,
+      "level": "Hard"
+    }
   },
   {
     "id": "Q294951",
@@ -374,8 +446,19 @@
         "apps": 73,
         "goals": 3,
         "loan": false
+      },
+      {
+        "team": "VfL Wolfsburg",
+        "years": "2025–",
+        "apps": null,
+        "goals": null,
+        "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 45,
+      "level": "Medium"
+    }
   },
   {
     "id": "Q458101",
@@ -465,7 +548,11 @@
         "goals": null,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 30,
+      "level": "Hard"
+    }
   },
   {
     "id": "Q11571",
@@ -513,7 +600,11 @@
         "goals": 74,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 35,
+      "level": "Hard"
+    }
   },
   {
     "id": "Q294806",
@@ -560,8 +651,19 @@
         "apps": 39,
         "goals": 1,
         "loan": false
+      },
+      {
+        "team": "Sevilla FC",
+        "years": "2025–",
+        "apps": 0,
+        "goals": 0,
+        "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 65,
+      "level": "Medium"
+    }
   },
   {
     "id": "Q127452",
@@ -588,7 +690,11 @@
         "goals": 10,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 55,
+      "level": "Medium"
+    }
   },
   {
     "id": "Q31981",
@@ -629,7 +735,11 @@
         "goals": 3,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 30,
+      "level": "Hard"
+    }
   },
   {
     "id": "Q30007142",
@@ -649,7 +759,11 @@
         "goals": 11,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 55,
+      "level": "Medium"
+    }
   },
   {
     "id": "Q11954",
@@ -704,7 +818,11 @@
         "goals": 20,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 60,
+      "level": "Medium"
+    }
   },
   {
     "id": "Q214204",
@@ -738,7 +856,11 @@
         "goals": 4,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 30,
+      "level": "Hard"
+    }
   },
   {
     "id": "Q17074511",
@@ -774,12 +896,23 @@
       },
       {
         "team": "Manchester City F.C.",
-        "years": "2017–",
-        "apps": 234,
+        "years": "2017–2025",
+        "apps": 276,
+        "goals": 0,
+        "loan": false
+      },
+      {
+        "team": "Fenerbahçe Istanbul",
+        "years": "2025–",
+        "apps": 0,
         "goals": 0,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 30,
+      "level": "Hard"
+    }
   },
   {
     "id": "Q62960177",
@@ -792,7 +925,11 @@
         "goals": null,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 55,
+      "level": "Medium"
+    }
   },
   {
     "id": "Q28967995",
@@ -829,11 +966,15 @@
       {
         "team": "Manchester City F.C.",
         "years": "2022–",
-        "apps": 97,
-        "goals": 85,
+        "apps": 100,
+        "goals": 88,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 65,
+      "level": "Medium"
+    }
   },
   {
     "id": "Q19509544",
@@ -867,7 +1008,11 @@
         "goals": 20,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 35,
+      "level": "Hard"
+    }
   },
   {
     "id": "Q19898898",
@@ -881,7 +1026,7 @@
         "loan": false
       },
       {
-        "team": "Jong Ajax",
+        "team": "jong PSV",
         "years": "2015–2016",
         "apps": 46,
         "goals": 8,
@@ -901,12 +1046,20 @@
         "goals": null,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 90,
+      "level": "Easy"
+    }
   },
   {
     "id": "Q17368",
     "name": "Gavi",
-    "career": []
+    "career": [],
+    "difficulty": {
+      "score": 55,
+      "level": "Medium"
+    }
   },
   {
     "id": "Q17507",
@@ -947,7 +1100,11 @@
         "goals": 29,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 90,
+      "level": "Easy"
+    }
   },
   {
     "id": "Q327456",
@@ -1002,7 +1159,11 @@
         "goals": 1,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 30,
+      "level": "Hard"
+    }
   },
   {
     "id": "Q969725",
@@ -1050,7 +1211,11 @@
         "goals": 62,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 20,
+      "level": "Hard"
+    }
   },
   {
     "id": "Q439722",
@@ -1084,7 +1249,11 @@
         "goals": 0,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 35,
+      "level": "Hard"
+    }
   },
   {
     "id": "Q16056053",
@@ -1118,7 +1287,11 @@
         "goals": 0,
         "loan": true
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 25,
+      "level": "Hard"
+    }
   },
   {
     "id": "Q30148558",
@@ -1154,12 +1327,23 @@
       },
       {
         "team": "Chelsea F.C.",
-        "years": "2024–",
+        "years": "2024–2025",
         "apps": 31,
         "goals": 3,
         "loan": true
+      },
+      {
+        "team": "Aston Villa F.C.",
+        "years": "2025–",
+        "apps": 0,
+        "goals": 0,
+        "loan": true
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 50,
+      "level": "Medium"
+    }
   },
   {
     "id": "Q2025900",
@@ -1186,7 +1370,11 @@
         "goals": 10,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 55,
+      "level": "Medium"
+    }
   },
   {
     "id": "Q187159",
@@ -1227,7 +1415,11 @@
         "goals": 5,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 65,
+      "level": "Medium"
+    }
   },
   {
     "id": "Q3810078",
@@ -1275,7 +1467,11 @@
         "goals": 0,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 35,
+      "level": "Hard"
+    }
   },
   {
     "id": "Q13865408",
@@ -1295,7 +1491,11 @@
         "goals": 29,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 55,
+      "level": "Medium"
+    }
   },
   {
     "id": "Q510462",
@@ -1350,7 +1550,11 @@
         "goals": null,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 30,
+      "level": "Hard"
+    }
   },
   {
     "id": "Q27049064",
@@ -1412,7 +1616,11 @@
         "goals": 0,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 55,
+      "level": "Medium"
+    }
   },
   {
     "id": "Q66241169",
@@ -1439,7 +1647,11 @@
         "goals": 28,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 85,
+      "level": "Easy"
+    }
   },
   {
     "id": "Q27310755",
@@ -1466,7 +1678,11 @@
         "goals": 21,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 55,
+      "level": "Medium"
+    }
   },
   {
     "id": "Q3192187",
@@ -1514,7 +1730,11 @@
         "goals": 4,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 35,
+      "level": "Hard"
+    }
   },
   {
     "id": "Q1912",
@@ -1548,7 +1768,11 @@
         "goals": 30,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 75,
+      "level": "Easy"
+    }
   },
   {
     "id": "Q357984",
@@ -1596,7 +1820,11 @@
         "goals": null,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 30,
+      "level": "Hard"
+    }
   },
   {
     "id": "Q6413296",
@@ -1644,7 +1872,11 @@
         "goals": 0,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 25,
+      "level": "Hard"
+    }
   },
   {
     "id": "Q59108",
@@ -1713,7 +1945,11 @@
         "goals": null,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 50,
+      "level": "Medium"
+    }
   },
   {
     "id": "Q21621995",
@@ -1750,11 +1986,15 @@
       {
         "team": "Real Madrid CF",
         "years": "2024–",
-        "apps": 34,
-        "goals": 31,
+        "apps": 37,
+        "goals": 34,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 30,
+      "level": "Hard"
+    }
   },
   {
     "id": "Q21484126",
@@ -1774,7 +2014,11 @@
         "goals": 115,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 100,
+      "level": "Easy"
+    }
   },
   {
     "id": "Q520721",
@@ -1808,7 +2052,11 @@
         "goals": 35,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 30,
+      "level": "Hard"
+    }
   },
   {
     "id": "Q16499882",
@@ -1842,7 +2090,11 @@
         "goals": 0,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 35,
+      "level": "Hard"
+    }
   },
   {
     "id": "Q615",
@@ -1893,11 +2145,15 @@
       {
         "team": "Inter Miami CF",
         "years": "2023–",
-        "apps": 43,
-        "goals": 39,
+        "apps": 44,
+        "goals": 40,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 60,
+      "level": "Medium"
+    }
   },
   {
     "id": "Q483837",
@@ -1945,7 +2201,11 @@
         "goals": 0,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 80,
+      "level": "Easy"
+    }
   },
   {
     "id": "Q107365",
@@ -1972,7 +2232,11 @@
         "goals": 0,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 55,
+      "level": "Medium"
+    }
   },
   {
     "id": "Q22951255",
@@ -1999,12 +2263,20 @@
         "goals": 0,
         "loan": true
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 100,
+      "level": "Easy"
+    }
   },
   {
     "id": "Q21285860",
     "name": "Marquinhos",
-    "career": []
+    "career": [],
+    "difficulty": {
+      "score": 55,
+      "level": "Medium"
+    }
   },
   {
     "id": "Q38000669",
@@ -2038,7 +2310,11 @@
         "goals": null,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 25,
+      "level": "Hard"
+    }
   },
   {
     "id": "Q26259982",
@@ -2072,7 +2348,11 @@
         "goals": 2,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 35,
+      "level": "Hard"
+    }
   },
   {
     "id": "Q1894",
@@ -2120,7 +2400,11 @@
         "goals": 12,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 55,
+      "level": "Medium"
+    }
   },
   {
     "id": "Q1354960",
@@ -2175,7 +2459,11 @@
         "goals": 184,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 30,
+      "level": "Hard"
+    }
   },
   {
     "id": "Q142794",
@@ -2216,7 +2504,11 @@
         "goals": 3,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 65,
+      "level": "Medium"
+    }
   },
   {
     "id": "Q16665941",
@@ -2257,7 +2549,11 @@
         "goals": 6,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 35,
+      "level": "Hard"
+    }
   },
   {
     "id": "Q20851003",
@@ -2291,7 +2587,11 @@
         "goals": 24,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 65,
+      "level": "Medium"
+    }
   },
   {
     "id": "Q129027",
@@ -2332,7 +2632,11 @@
         "goals": null,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 55,
+      "level": "Medium"
+    }
   },
   {
     "id": "Q66606355",
@@ -2352,7 +2656,11 @@
         "goals": 20,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 100,
+      "level": "Easy"
+    }
   },
   {
     "id": "Q30729096",
@@ -2365,7 +2673,11 @@
         "goals": 61,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 55,
+      "level": "Medium"
+    }
   },
   {
     "id": "Q44977",
@@ -2458,11 +2770,15 @@
       {
         "team": "Olympique de Marseille",
         "years": "2025–",
-        "apps": 0,
-        "goals": 0,
+        "apps": 2,
+        "goals": 2,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 55,
+      "level": "Medium"
+    }
   },
   {
     "id": "Q312157",
@@ -2496,7 +2812,11 @@
         "goals": 0,
         "loan": true
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 30,
+      "level": "Hard"
+    }
   },
   {
     "id": "Q489039",
@@ -2530,7 +2850,11 @@
         "goals": 0,
         "loan": true
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 30,
+      "level": "Hard"
+    }
   },
   {
     "id": "Q39076401",
@@ -2550,7 +2874,11 @@
         "goals": null,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 55,
+      "level": "Medium"
+    }
   },
   {
     "id": "Q8338725",
@@ -2591,7 +2919,11 @@
         "goals": 16,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 35,
+      "level": "Hard"
+    }
   },
   {
     "id": "Q151269",
@@ -2632,7 +2964,11 @@
         "goals": 69,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 90,
+      "level": "Easy"
+    }
   },
   {
     "id": "Q20994118",
@@ -2666,7 +3002,11 @@
         "goals": 22,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 60,
+      "level": "Medium"
+    }
   },
   {
     "id": "Q313316",
@@ -2749,7 +3089,11 @@
         "goals": 14,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 55,
+      "level": "Medium"
+    }
   },
   {
     "id": "Q21621168",
@@ -2776,7 +3120,11 @@
         "goals": 3,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 55,
+      "level": "Medium"
+    }
   },
   {
     "id": "Q209942",
@@ -2824,7 +3172,11 @@
         "goals": 27,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 35,
+      "level": "Hard"
+    }
   },
   {
     "id": "Q59490",
@@ -2872,7 +3224,11 @@
         "goals": 10,
         "loan": true
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 20,
+      "level": "Hard"
+    }
   },
   {
     "id": "Q483309",
@@ -2913,7 +3269,11 @@
         "goals": 3,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 35,
+      "level": "Hard"
+    }
   },
   {
     "id": "Q17493",
@@ -2947,7 +3307,11 @@
         "goals": 2,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 65,
+      "level": "Medium"
+    }
   },
   {
     "id": "Q210453",
@@ -3044,12 +3408,20 @@
         "goals": 1,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 30,
+      "level": "Hard"
+    }
   },
   {
     "id": "Q2426220",
     "name": "Thomas Müller",
-    "career": []
+    "career": [],
+    "difficulty": {
+      "score": 55,
+      "level": "Medium"
+    }
   },
   {
     "id": "Q3529022",
@@ -3097,7 +3469,11 @@
         "goals": 2,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 30,
+      "level": "Hard"
+    }
   },
   {
     "id": "Q131234",
@@ -3124,7 +3500,11 @@
         "goals": 22,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 50,
+      "level": "Medium"
+    }
   },
   {
     "id": "Q27569376",
@@ -3144,7 +3524,11 @@
         "goals": null,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 55,
+      "level": "Medium"
+    }
   },
   {
     "id": "Q28973866",
@@ -3164,7 +3548,11 @@
         "goals": 61,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 55,
+      "level": "Medium"
+    }
   },
   {
     "id": "Q133903",
@@ -3198,7 +3586,11 @@
         "goals": 21,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 35,
+      "level": "Hard"
+    }
   },
   {
     "id": "Q251683",
@@ -3260,6 +3652,10 @@
         "goals": 1,
         "loan": false
       }
-    ]
+    ],
+    "difficulty": {
+      "score": 35,
+      "level": "Hard"
+    }
   }
 ]

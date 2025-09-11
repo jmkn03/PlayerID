@@ -33,9 +33,13 @@
         {
             "team": "Real Madrid CF",
             "years": "2024–",
-            "apps": 34,
-            "goals": 31,
+            "apps": 37,
+            "goals": 34,
             "loan": false
         }
-    ]
+    ],
+    "difficulty": {
+        "score": 30,
+        "level": "Hard"
+    }
 }

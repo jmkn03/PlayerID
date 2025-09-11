@@ -18,7 +18,7 @@
         },
         {
             "team": "Chelsea F.C.",
-            "years": "2020–",
+            "years": "2020–2025",
             "apps": 70,
             "goals": 8,
             "loan": false
@@ -29,6 +29,17 @@
             "apps": 8,
             "goals": 1,
             "loan": true
+        },
+        {
+            "team": "RC Strasbourg Alsace",
+            "years": "2025–",
+            "apps": 0,
+            "goals": 0,
+            "loan": false
         }
-    ]
+    ],
+    "difficulty": {
+        "score": 30,
+        "level": "Hard"
+    }
 }

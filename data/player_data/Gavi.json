@@ -1,5 +1,9 @@
 {
     "id": "Q17368",
     "name": "Gavi",
-    "career": []
+    "career": [],
+    "difficulty": {
+        "score": 55,
+        "level": "Medium"
+    }
 }

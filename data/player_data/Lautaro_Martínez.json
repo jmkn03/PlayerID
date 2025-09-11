@@ -16,5 +16,9 @@
             "goals": 115,
             "loan": false
         }
-    ]
+    ],
+    "difficulty": {
+        "score": 100,
+        "level": "Easy"
+    }
 }

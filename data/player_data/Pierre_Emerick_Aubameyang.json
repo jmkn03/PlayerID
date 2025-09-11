@@ -89,9 +89,13 @@
         {
             "team": "Olympique de Marseille",
             "years": "2025–",
-            "apps": 0,
-            "goals": 0,
+            "apps": 2,
+            "goals": 2,
             "loan": false
         }
-    ]
+    ],
+    "difficulty": {
+        "score": 55,
+        "level": "Medium"
+    }
 }

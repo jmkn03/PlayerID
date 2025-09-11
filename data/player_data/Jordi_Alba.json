@@ -37,5 +37,9 @@
             "goals": 5,
             "loan": false
         }
-    ]
+    ],
+    "difficulty": {
+        "score": 65,
+        "level": "Medium"
+    }
 }

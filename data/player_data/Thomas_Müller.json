@@ -1,5 +1,9 @@
 {
     "id": "Q2426220",
     "name": "Thomas Müller",
-    "career": []
+    "career": [],
+    "difficulty": {
+        "score": 55,
+        "level": "Medium"
+    }
 }

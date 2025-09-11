@@ -23,5 +23,9 @@
             "goals": 10,
             "loan": false
         }
-    ]
+    ],
+    "difficulty": {
+        "score": 55,
+        "level": "Medium"
+    }
 }
