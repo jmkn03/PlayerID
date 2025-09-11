@@ -1,8 +1,10 @@
 import { Text, TouchableOpacity, StyleSheet, Animated, Easing, View } from "react-native";
 import { useEffect, useRef } from "react";
 import { useGameStore } from "../utils/store";
+import { useRouter } from "expo-router";
 
 export default function GameOver() {
+  const router = useRouter();
   const { score, restartGame } = useGameStore();
   const total = 2; // current round count
   const anim = useRef(new Animated.Value(0)).current;
@@ -46,7 +48,7 @@ export default function GameOver() {
         <Text style={styles.scoreTotal}>{total}</Text>
       </View>
 
-      <TouchableOpacity style={styles.submitButton} onPress={restartGame} activeOpacity={0.9}>
+      <TouchableOpacity style={styles.submitButton} onPress={ () => router.replace("/play/difficultySelection") } activeOpacity={0.9}>
         <Text style={styles.submitButtonText}>Play Again</Text>
       </TouchableOpacity>
     </Animated.View>

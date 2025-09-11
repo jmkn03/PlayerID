@@ -3,6 +3,7 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 import players from "../assets/data/allPlayers.json";
 
 type Player = typeof players[number];
+type Difficulty = "Easy" | "Medium" | "Hard";
 
 interface GameState {
   // shared
@@ -12,11 +13,13 @@ interface GameState {
   showSuggestions: boolean;
   filteredNames: string[];
   allNames: string[];
+  difficulty: Difficulty | null; // 🔹 new
+  setDifficulty: (level: Difficulty) => void; // 🔹 new
   getRandomPlayer: () => void;
   handleInputChange: (text: string) => void;
   handleSuggestionPress: (name: string) => void;
 
-  // mode 3 (quiz)
+  // mode 3 (quiz/classic)
   score: number;
   question: number;
   totalQuestions: number;
@@ -40,11 +43,23 @@ export const useGameStore = create<GameState>((set, get) => ({
   showSuggestions: false,
   filteredNames: [],
   allNames: players.map((p) => p.name),
+  difficulty: null,
+
+  setDifficulty: (level) => set({ difficulty: level }),
 
   getRandomPlayer: () => {
-    const randomIndex = Math.floor(Math.random() * players.length);
+    const { difficulty } = get();
+    let pool = players;
+
+    if (difficulty) {
+      pool = players.filter((p) => p.difficulty?.level === difficulty);
+    }
+
+    if (pool.length === 0) return;
+
+    const randomIndex = Math.floor(Math.random() * pool.length);
     set({
-      player: players[randomIndex],
+      player: pool[randomIndex],
       guess: "",
       feedback: null,
       showSuggestions: false,
@@ -70,7 +85,7 @@ export const useGameStore = create<GameState>((set, get) => ({
   },
 
   // ----------------------
-  // Mode 3 (Quiz) state
+  // Mode 3 (Quiz/Classic) state
   // ----------------------
   score: 0,
   question: 1,
@@ -93,13 +108,22 @@ export const useGameStore = create<GameState>((set, get) => ({
   },
 
   checkAnswer: () => {
-    const { player, guess, score, nextQuestion } = get();
+    const { player, guess, score, nextQuestion, difficulty } = get();
     if (!player) return;
-    if (guess.trim().toLowerCase() === player.name.toLowerCase()) {
-      set({ feedback: "✅ Correct!", score: score + 1 });
+
+    const correct = guess.trim().toLowerCase() === player.name.toLowerCase();
+    let points = 0;
+
+    if (correct) {
+      if (difficulty === "Hard") points = 3;
+      else if (difficulty === "Medium") points = 2;
+      else points = 1;
+
+      set({ feedback: "✅ Correct!", score: score + points });
     } else {
       set({ feedback: `❌ Wrong! Answer: ${player.name}` });
     }
+
     set({ guess: "", filteredNames: [] });
     setTimeout(() => nextQuestion(), 800);
   },
@@ -138,14 +162,15 @@ export const useGameStore = create<GameState>((set, get) => ({
     if (guess.trim().toLowerCase() === player.name.toLowerCase()) {
       const newScore = mode2Score + 1;
       set({ feedback: "✅ Correct!", mode2Score: newScore });
-      // update high score if needed
+
       const { mode2HighScore } = get();
       if (newScore > mode2HighScore) {
         set({ mode2HighScore: newScore });
         await AsyncStorage.setItem("SurvivalHighScore", String(newScore));
       }
+
       set({ guess: "", filteredNames: [] });
-      setTimeout(() => get().getRandomPlayer(), 800); // <-- Add delay here!
+      setTimeout(() => get().getRandomPlayer(), 800);
     } else {
       set({ feedback: `❌ Wrong! Answer: ${player.name}`, gameOver: true });
       set({ guess: "", filteredNames: [] });
@@ -164,3 +189,4 @@ export const useGameStore = create<GameState>((set, get) => ({
     console.error("Error loading high score", err);
   }
 })();
+  

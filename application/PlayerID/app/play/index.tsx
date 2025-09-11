@@ -24,7 +24,7 @@ export default function PlayMenu() {
           </TouchableOpacity>
           <TouchableOpacity
             style={styles.button}
-            onPress={() => router.push("/play/mode3")}
+            onPress={() => router.push("/play/difficultySelection")}
           >
             <Text style={styles.buttonText}>Classic Mode</Text>
           </TouchableOpacity>
