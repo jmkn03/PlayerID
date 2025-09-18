@@ -3,20 +3,19 @@ import {
   Text,
   TouchableOpacity,
   StyleSheet,
-  SafeAreaView,
   Dimensions,
   ScrollView,
 } from "react-native";
 import { useRouter } from "expo-router";
 import { LinearGradient } from "expo-linear-gradient";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 const { width } = Dimensions.get("window");
 
 const careerMenu = [
   { years: "2025–", club: "Kick Off", color: "#11998e", route: "/play", icon: "⚽" },
   { years: "2023–2025", club: "Leaderboards", color: "#2563eb", route: "/leaderboards", icon: "🏆" },
-  { years: "2022–2023", club: "How to Play", color: "#f59e42", route: "/guide", icon: "📘" },
-  { years: "2021–2022", club: "Settings", color: "#6366f1", route: "/settings", icon: "⚙️" },
+  { years: "2021–2023", club: "Settings", color: "#6366f1", route: "/settings", icon: "⚙️" },
   { years: "2020–2021", club: "Profile", color: "#f43f5e", route: "/account", icon: "👤" },
 ];
 

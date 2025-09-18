@@ -1,8 +1,9 @@
 // screens/Leaderboard.tsx
 import { useEffect, useState } from "react";
-import { View, Text, StyleSheet, SafeAreaView, ScrollView } from "react-native";
+import { View, Text, StyleSheet, ScrollView } from "react-native";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { LinearGradient } from "expo-linear-gradient";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function Leaderboard() {
   const [scores, setScores] = useState<{ mode: string; score: number }[]>([]);

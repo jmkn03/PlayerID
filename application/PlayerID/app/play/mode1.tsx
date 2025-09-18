@@ -1,4 +1,4 @@
-import { Text, TextInput, TouchableOpacity, StyleSheet, View } from "react-native";
+import { Text, TextInput, TouchableOpacity, StyleSheet } from "react-native";
 import { KeyboardAwareScrollView } from "react-native-keyboard-aware-scroll-view";
 import { useEffect } from "react";
 import { useGameStore } from "../../utils/store";
