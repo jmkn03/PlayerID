@@ -33,6 +33,13 @@ interface GameState {
   mode2HighScore: number;
   startMode2: () => void;
   submitMode2Answer: () => void;
+
+  // mode 1 (daily)
+  dailyPlayer: Player | null;
+  dailyCompleted: boolean;
+  dailyDate: string | null;
+  loadDailyChallenge: () => Promise<void>;
+  submitDailyAnswer: () => void;
 }
 
 export const useGameStore = create<GameState>((set, get) => ({
@@ -175,6 +182,48 @@ export const useGameStore = create<GameState>((set, get) => ({
       set({ feedback: `❌ Wrong! Answer: ${player.name}`, gameOver: true });
       set({ guess: "", filteredNames: [] });
     }
+  },
+
+  // ----------------------
+  // Mode 1 (Daily Challenge)
+  // ----------------------
+  dailyPlayer: null,
+  dailyCompleted: false,
+  dailyDate: null,
+
+  loadDailyChallenge: async () => {
+    const today = new Date().toISOString().slice(0, 10); // e.g. "2025-09-12"
+
+    // check if already completed
+    const completed = await AsyncStorage.getItem(`Daily_${today}`);
+    const seed = parseInt(today.replace(/-/g, ""), 10);
+    const index = seed % players.length;
+    const player = players[index];
+
+    set({
+      dailyPlayer: player,
+      dailyCompleted: !!completed,
+      dailyDate: today,
+      guess: "",
+      feedback: null,
+      filteredNames: [],
+      showSuggestions: false,
+    });
+  },
+
+  submitDailyAnswer: async () => {
+    const { dailyPlayer, guess, dailyDate } = get();
+    if (!dailyPlayer || !dailyDate) return;
+
+    if (guess.trim().toLowerCase() === dailyPlayer.name.toLowerCase()) {
+      set({ feedback: "✅ Correct!", dailyCompleted: true });
+      await AsyncStorage.setItem(`Daily_${dailyDate}`, "done");
+    } else {
+      set({ feedback: `❌ Wrong! Answer: ${dailyPlayer.name}`, dailyCompleted: true });
+      await AsyncStorage.setItem(`Daily_${dailyDate}`, "done");
+    }
+
+    set({ guess: "", filteredNames: [] });
   },
 }));
 

@@ -37,6 +37,13 @@ export default function HomeScreen() {
           <Text style={styles.subtitle}>Ultimate Football Quiz</Text>
         </View>
 
+        <TouchableOpacity
+          style={styles.kickOffButton}
+          onPress={() => router.push("/play/daily")}
+        >
+          <Text style={styles.kickOffButtonText}>🎯 Daily Challenge</Text>
+        </TouchableOpacity>
+
         {/* Play Button */}
         <TouchableOpacity
           style={styles.kickOffButton}

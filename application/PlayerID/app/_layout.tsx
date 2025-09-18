@@ -16,6 +16,7 @@ export default function Layout() {
       <Stack.Screen name="leaderboards" options={{ title: "Leaderboards" }} />
       <Stack.Screen name="guide" options={{ title: "Guide" }} />
       <Stack.Screen name="account/index" options={{ title: "Account" }} />
+      <Stack.Screen name="play/daily" options={{ title: "Daily" }} />
     </Stack>
   );
 }
